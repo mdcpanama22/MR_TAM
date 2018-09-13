@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: aa92c897bc7f4854fa887fa58497465c
+timeCreated: 1491414398
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Finition PERSONAL USE ONLY
+  fontNames:
+  - Finition PERSONAL USE ONLY
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7b0f1b353fb516b49bf19c1f4cf5afff, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 1b663e1caebc9e14293d4e7422921d8e
+timeCreated: 1463067902
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: eighth_lower_JNT
+    100002: fifth_CNTRL
+    100004: fifth_upper_JNT
+    100006: first_CNTRL
+    100008: first_nose_JNT
+    100010: fourth_CNTRL
+    100012: fourth_upper_JNT
+    100014: last_tailtip_JNT
+    100016: left_eye_GEO
+    100018: left_fin1_JNT
+    100020: left_fin2_JNT
+    100022: left_front_fin_CNTRL
+    100024: main_CNTRL
+    100026: ninth_tail1_JNT
+    100028: right_eye_GEO
+    100030: right_fin1_JNT
+    100032: right_fin2_JNT
+    100034: right_front_fin_CNTRL
+    100036: second_CNTRL
+    100038: second_head_JNT
+    100040: seventh_lower_JNT
+    100042: sixth_CNTRL
+    100044: sixth_middle_JNT
+    100046: tenth_tail2_JNT
+    100048: third_CNTRL
+    100050: third_fins_JNT
+    100052: yellow_perch_GEO
+    100054: //RootNode
+    400000: eighth_lower_JNT
+    400002: fifth_CNTRL
+    400004: fifth_upper_JNT
+    400006: first_CNTRL
+    400008: first_nose_JNT
+    400010: fourth_CNTRL
+    400012: fourth_upper_JNT
+    400014: last_tailtip_JNT
+    400016: left_eye_GEO
+    400018: left_fin1_JNT
+    400020: left_fin2_JNT
+    400022: left_front_fin_CNTRL
+    400024: main_CNTRL
+    400026: ninth_tail1_JNT
+    400028: right_eye_GEO
+    400030: right_fin1_JNT
+    400032: right_fin2_JNT
+    400034: right_front_fin_CNTRL
+    400036: second_CNTRL
+    400038: second_head_JNT
+    400040: seventh_lower_JNT
+    400042: sixth_CNTRL
+    400044: sixth_middle_JNT
+    400046: tenth_tail2_JNT
+    400048: third_CNTRL
+    400050: third_fins_JNT
+    400052: yellow_perch_GEO
+    400054: //RootNode
+    2300000: left_eye_GEO
+    2300002: right_eye_GEO
+    3300000: left_eye_GEO
+    3300002: right_eye_GEO
+    4300000: left_eye_GEO
+    4300002: right_eye_GEO
+    4300004: yellow_perch_GEO
+    7400000: SwimAnim
+    9500000: //RootNode
+    13700000: yellow_perch_GEO
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SwimAnim
+      takeName: SwimAnim
+      firstFrame: 1
+      lastFrame: 98
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: first_nose_JNT
+        weight: 0
+      - path: first_nose_JNT/second_head_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/fourth_upper_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/fourth_upper_JNT/fifth_upper_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/fourth_upper_JNT/fifth_upper_JNT/sixth_middle_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/fourth_upper_JNT/fifth_upper_JNT/sixth_middle_JNT/seventh_lower_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/fourth_upper_JNT/fifth_upper_JNT/sixth_middle_JNT/seventh_lower_JNT/eighth_lower_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/fourth_upper_JNT/fifth_upper_JNT/sixth_middle_JNT/seventh_lower_JNT/eighth_lower_JNT/ninth_tail1_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/fourth_upper_JNT/fifth_upper_JNT/sixth_middle_JNT/seventh_lower_JNT/eighth_lower_JNT/ninth_tail1_JNT/tenth_tail2_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/fourth_upper_JNT/fifth_upper_JNT/sixth_middle_JNT/seventh_lower_JNT/eighth_lower_JNT/ninth_tail1_JNT/tenth_tail2_JNT/last_tailtip_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/left_fin1_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/left_fin1_JNT/left_fin2_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/right_fin1_JNT
+        weight: 1
+      - path: first_nose_JNT/second_head_JNT/third_fins_JNT/right_fin1_JNT/right_fin2_JNT
+        weight: 1
+      - path: main_CNTRL
+        weight: 0
+      - path: main_CNTRL/first_CNTRL
+        weight: 1
+      - path: main_CNTRL/first_CNTRL/second_CNTRL
+        weight: 1
+      - path: main_CNTRL/first_CNTRL/second_CNTRL/third_CNTRL
+        weight: 1
+      - path: main_CNTRL/first_CNTRL/second_CNTRL/third_CNTRL/fourth_CNTRL
+        weight: 1
+      - path: main_CNTRL/first_CNTRL/second_CNTRL/third_CNTRL/fourth_CNTRL/fifth_CNTRL
+        weight: 1
+      - path: main_CNTRL/first_CNTRL/second_CNTRL/third_CNTRL/fourth_CNTRL/fifth_CNTRL/sixth_CNTRL
+        weight: 1
+      - path: main_CNTRL/left_eye_GEO
+        weight: 1
+      - path: main_CNTRL/left_front_fin_CNTRL
+        weight: 1
+      - path: main_CNTRL/right_eye_GEO
+        weight: 1
+      - path: main_CNTRL/right_front_fin_CNTRL
+        weight: 1
+      - path: yellow_perch_GEO
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

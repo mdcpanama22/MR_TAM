@@ -1,0 +1,771 @@
+fileFormatVersion: 2
+guid: d6a52ab456dfb0e428282ca547cbfbde
+timeCreated: 1428561471
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: brood_chamber
+    100002: Butt
+    100004: ButtTip
+    100006: CTRL_GRP
+    100008: //RootNode
+    100010: Digestive_Base_CTRL_GRP
+    100012: Digestive_End_CTRL
+    100014: Digestive_End_CTRL_GRP
+    100016: Digestive_Legbase_CTRL
+    100018: Digestive_Mid_CTRL_GRP
+    100020: DigestiveMid_CTRL
+    100022: digestivetract
+    100024: eyespot
+    100026: geometry
+    100028: heart
+    100030: L_Ant_B
+    100032: L_Ant_Base_CTRL
+    100034: L_Ant_CTRL_GRP
+    100036: L_Ant_M
+    100038: L_Ant_Mid_CTRL
+    100040: L_Ant_Mid_CTRL_GRP
+    100042: L_Ant_Tip
+    100044: L_Thor_1B
+    100046: L_Thor_1M
+    100048: L_Thor_1T
+    100050: L_Thor_2B
+    100052: L_Thor_2M
+    100054: L_Thor_2T
+    100056: L_Thor_3B
+    100058: L_Thor_3M
+    100060: L_Thor_3MM
+    100062: L_Thor_3T
+    100064: L_Thor_4B
+    100066: L_Thor_4M
+    100068: L_Thor_4T
+    100070: L_Thor_FeedB
+    100072: L_Thor_FeedM
+    100074: L_Thor_FeedT
+    100076: L_Thoracopods
+    100078: left_arm
+    100080: MidOrgan
+    100082: OrganPivot
+    100084: ovaries_Flesh
+    100086: R_Ant_B
+    100088: R_Ant_Base_CTRL
+    100090: R_Ant_CTRL_GRP
+    100092: R_Ant_M
+    100094: R_Ant_Mid_CTRL
+    100096: R_Ant_Mid_CTRL_GRP
+    100098: R_Ant_Tip
+    100100: R_Thor_1B
+    100102: R_Thor_1M
+    100104: R_Thor_1T
+    100106: R_Thor_2B
+    100108: R_Thor_2M
+    100110: R_Thor_2T
+    100112: R_Thor_3B
+    100114: R_Thor_3M
+    100116: R_Thor_3MM
+    100118: R_Thor_3T
+    100120: R_Thor_4B
+    100122: R_Thor_4M
+    100124: R_Thor_4T
+    100126: R_Thor_FeedB
+    100128: R_Thor_FeedM
+    100130: R_Thor_FeedT
+    100132: R_Thoracopods
+    100134: RIG
+    100136: right_arm
+    100138: Root_CTRL
+    100140: shell
+    100142: ShellControl
+    100144: ShellControlTip
+    100146: SKELE_GRP
+    100148: thoracapods
+    400000: brood_chamber
+    400002: Butt
+    400004: ButtTip
+    400006: CTRL_GRP
+    400008: //RootNode
+    400010: Digestive_Base_CTRL_GRP
+    400012: Digestive_End_CTRL
+    400014: Digestive_End_CTRL_GRP
+    400016: Digestive_Legbase_CTRL
+    400018: Digestive_Mid_CTRL_GRP
+    400020: DigestiveMid_CTRL
+    400022: digestivetract
+    400024: eyespot
+    400026: geometry
+    400028: heart
+    400030: L_Ant_B
+    400032: L_Ant_Base_CTRL
+    400034: L_Ant_CTRL_GRP
+    400036: L_Ant_M
+    400038: L_Ant_Mid_CTRL
+    400040: L_Ant_Mid_CTRL_GRP
+    400042: L_Ant_Tip
+    400044: L_Thor_1B
+    400046: L_Thor_1M
+    400048: L_Thor_1T
+    400050: L_Thor_2B
+    400052: L_Thor_2M
+    400054: L_Thor_2T
+    400056: L_Thor_3B
+    400058: L_Thor_3M
+    400060: L_Thor_3MM
+    400062: L_Thor_3T
+    400064: L_Thor_4B
+    400066: L_Thor_4M
+    400068: L_Thor_4T
+    400070: L_Thor_FeedB
+    400072: L_Thor_FeedM
+    400074: L_Thor_FeedT
+    400076: L_Thoracopods
+    400078: left_arm
+    400080: MidOrgan
+    400082: OrganPivot
+    400084: ovaries_Flesh
+    400086: R_Ant_B
+    400088: R_Ant_Base_CTRL
+    400090: R_Ant_CTRL_GRP
+    400092: R_Ant_M
+    400094: R_Ant_Mid_CTRL
+    400096: R_Ant_Mid_CTRL_GRP
+    400098: R_Ant_Tip
+    400100: R_Thor_1B
+    400102: R_Thor_1M
+    400104: R_Thor_1T
+    400106: R_Thor_2B
+    400108: R_Thor_2M
+    400110: R_Thor_2T
+    400112: R_Thor_3B
+    400114: R_Thor_3M
+    400116: R_Thor_3MM
+    400118: R_Thor_3T
+    400120: R_Thor_4B
+    400122: R_Thor_4M
+    400124: R_Thor_4T
+    400126: R_Thor_FeedB
+    400128: R_Thor_FeedM
+    400130: R_Thor_FeedT
+    400132: R_Thoracopods
+    400134: RIG
+    400136: right_arm
+    400138: Root_CTRL
+    400140: shell
+    400142: ShellControl
+    400144: ShellControlTip
+    400146: SKELE_GRP
+    400148: thoracapods
+    4300000: shell
+    4300002: thoracapods
+    4300004: brood_chamber
+    4300006: eyespot
+    4300008: heart
+    4300010: digestivetract
+    4300012: ovaries_Flesh
+    4300014: left_arm
+    4300016: right_arm
+    7400000: Tee
+    7400002: Resting
+    7400004: Burst
+    9500000: //RootNode
+    13700000: brood_chamber
+    13700002: digestivetract
+    13700004: eyespot
+    13700006: heart
+    13700008: left_arm
+    13700010: ovaries_Flesh
+    13700012: right_arm
+    13700014: shell
+    13700016: thoracapods
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Tee
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geometry
+        weight: 1
+      - path: geometry/brood_chamber
+        weight: 1
+      - path: geometry/digestivetract
+        weight: 1
+      - path: geometry/eyespot
+        weight: 1
+      - path: geometry/heart
+        weight: 1
+      - path: geometry/left_arm
+        weight: 1
+      - path: geometry/ovaries_Flesh
+        weight: 1
+      - path: geometry/right_arm
+        weight: 1
+      - path: geometry/shell
+        weight: 1
+      - path: geometry/thoracapods
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_End_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_End_CTRL_GRP/Digestive_End_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_Legbase_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_Legbase_CTRL/Digestive_Mid_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_Legbase_CTRL/Digestive_Mid_CTRL_GRP/DigestiveMid_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP/L_Ant_Base_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP/L_Ant_Base_CTRL/L_Ant_Mid_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP/L_Ant_Base_CTRL/L_Ant_Mid_CTRL_GRP/L_Ant_Mid_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP/R_Ant_Base_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP/R_Ant_Base_CTRL/R_Ant_Mid_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP/R_Ant_Base_CTRL/R_Ant_Mid_CTRL_GRP/R_Ant_Mid_CTRL
+        weight: 1
+      - path: RIG/SKELE_GRP
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/L_Ant_B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/L_Ant_B/L_Ant_M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/L_Ant_B/L_Ant_M/L_Ant_Tip
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_1B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_1B/L_Thor_1M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_1B/L_Thor_1M/L_Thor_1T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_2B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_2B/L_Thor_2M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_2B/L_Thor_2M/L_Thor_2T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B/L_Thor_3M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B/L_Thor_3M/L_Thor_3MM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B/L_Thor_3M/L_Thor_3MM/L_Thor_3T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_4B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_4B/L_Thor_4M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_4B/L_Thor_4M/L_Thor_4T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_FeedB
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_FeedB/L_Thor_FeedM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_FeedB/L_Thor_FeedM/L_Thor_FeedT
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/MidOrgan
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/MidOrgan/Butt
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/MidOrgan/Butt/ButtTip
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_1B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_1B/R_Thor_1M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_1B/R_Thor_1M/R_Thor_1T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_2B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_2B/R_Thor_2M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_2B/R_Thor_2M/R_Thor_2T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B/R_Thor_3M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B/R_Thor_3M/R_Thor_3MM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B/R_Thor_3M/R_Thor_3MM/R_Thor_3T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_4B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_4B/R_Thor_4M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_4B/R_Thor_4M/R_Thor_4T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_FeedB
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_FeedB/R_Thor_FeedM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_FeedB/R_Thor_FeedM/R_Thor_FeedT
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/R_Ant_B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/R_Ant_B/R_Ant_M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/R_Ant_B/R_Ant_M/R_Ant_Tip
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/ShellControlTip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Resting
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geometry
+        weight: 1
+      - path: geometry/brood_chamber
+        weight: 1
+      - path: geometry/digestivetract
+        weight: 1
+      - path: geometry/eyespot
+        weight: 1
+      - path: geometry/heart
+        weight: 1
+      - path: geometry/left_arm
+        weight: 1
+      - path: geometry/ovaries_Flesh
+        weight: 1
+      - path: geometry/right_arm
+        weight: 1
+      - path: geometry/shell
+        weight: 1
+      - path: geometry/thoracapods
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_End_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_End_CTRL_GRP/Digestive_End_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_Legbase_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_Legbase_CTRL/Digestive_Mid_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_Legbase_CTRL/Digestive_Mid_CTRL_GRP/DigestiveMid_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP/L_Ant_Base_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP/L_Ant_Base_CTRL/L_Ant_Mid_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP/L_Ant_Base_CTRL/L_Ant_Mid_CTRL_GRP/L_Ant_Mid_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP/R_Ant_Base_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP/R_Ant_Base_CTRL/R_Ant_Mid_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP/R_Ant_Base_CTRL/R_Ant_Mid_CTRL_GRP/R_Ant_Mid_CTRL
+        weight: 1
+      - path: RIG/SKELE_GRP
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/L_Ant_B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/L_Ant_B/L_Ant_M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/L_Ant_B/L_Ant_M/L_Ant_Tip
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_1B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_1B/L_Thor_1M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_1B/L_Thor_1M/L_Thor_1T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_2B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_2B/L_Thor_2M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_2B/L_Thor_2M/L_Thor_2T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B/L_Thor_3M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B/L_Thor_3M/L_Thor_3MM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B/L_Thor_3M/L_Thor_3MM/L_Thor_3T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_4B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_4B/L_Thor_4M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_4B/L_Thor_4M/L_Thor_4T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_FeedB
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_FeedB/L_Thor_FeedM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_FeedB/L_Thor_FeedM/L_Thor_FeedT
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/MidOrgan
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/MidOrgan/Butt
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/MidOrgan/Butt/ButtTip
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_1B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_1B/R_Thor_1M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_1B/R_Thor_1M/R_Thor_1T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_2B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_2B/R_Thor_2M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_2B/R_Thor_2M/R_Thor_2T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B/R_Thor_3M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B/R_Thor_3M/R_Thor_3MM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B/R_Thor_3M/R_Thor_3MM/R_Thor_3T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_4B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_4B/R_Thor_4M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_4B/R_Thor_4M/R_Thor_4T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_FeedB
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_FeedB/R_Thor_FeedM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_FeedB/R_Thor_FeedM/R_Thor_FeedT
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/R_Ant_B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/R_Ant_B/R_Ant_M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/R_Ant_B/R_Ant_M/R_Ant_Tip
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/ShellControlTip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Burst
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geometry
+        weight: 1
+      - path: geometry/brood_chamber
+        weight: 1
+      - path: geometry/digestivetract
+        weight: 1
+      - path: geometry/eyespot
+        weight: 1
+      - path: geometry/heart
+        weight: 1
+      - path: geometry/left_arm
+        weight: 1
+      - path: geometry/ovaries_Flesh
+        weight: 1
+      - path: geometry/right_arm
+        weight: 1
+      - path: geometry/shell
+        weight: 1
+      - path: geometry/thoracapods
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_End_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_End_CTRL_GRP/Digestive_End_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_Legbase_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_Legbase_CTRL/Digestive_Mid_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/Digestive_Base_CTRL_GRP/Digestive_Legbase_CTRL/Digestive_Mid_CTRL_GRP/DigestiveMid_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP/L_Ant_Base_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP/L_Ant_Base_CTRL/L_Ant_Mid_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/L_Ant_CTRL_GRP/L_Ant_Base_CTRL/L_Ant_Mid_CTRL_GRP/L_Ant_Mid_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP/R_Ant_Base_CTRL
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP/R_Ant_Base_CTRL/R_Ant_Mid_CTRL_GRP
+        weight: 1
+      - path: RIG/CTRL_GRP/Root_CTRL/R_Ant_CTRL_GRP/R_Ant_Base_CTRL/R_Ant_Mid_CTRL_GRP/R_Ant_Mid_CTRL
+        weight: 1
+      - path: RIG/SKELE_GRP
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/L_Ant_B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/L_Ant_B/L_Ant_M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/L_Ant_B/L_Ant_M/L_Ant_Tip
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_1B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_1B/L_Thor_1M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_1B/L_Thor_1M/L_Thor_1T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_2B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_2B/L_Thor_2M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_2B/L_Thor_2M/L_Thor_2T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B/L_Thor_3M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B/L_Thor_3M/L_Thor_3MM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_3B/L_Thor_3M/L_Thor_3MM/L_Thor_3T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_4B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_4B/L_Thor_4M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_4B/L_Thor_4M/L_Thor_4T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_FeedB
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_FeedB/L_Thor_FeedM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/L_Thoracopods/L_Thor_FeedB/L_Thor_FeedM/L_Thor_FeedT
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/MidOrgan
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/MidOrgan/Butt
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/MidOrgan/Butt/ButtTip
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_1B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_1B/R_Thor_1M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_1B/R_Thor_1M/R_Thor_1T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_2B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_2B/R_Thor_2M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_2B/R_Thor_2M/R_Thor_2T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B/R_Thor_3M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B/R_Thor_3M/R_Thor_3MM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_3B/R_Thor_3M/R_Thor_3MM/R_Thor_3T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_4B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_4B/R_Thor_4M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_4B/R_Thor_4M/R_Thor_4T
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_FeedB
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_FeedB/R_Thor_FeedM
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/OrganPivot/R_Thoracopods/R_Thor_FeedB/R_Thor_FeedM/R_Thor_FeedT
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/R_Ant_B
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/R_Ant_B/R_Ant_M
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/R_Ant_B/R_Ant_M/R_Ant_Tip
+        weight: 1
+      - path: RIG/SKELE_GRP/ShellControl/ShellControlTip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: ShellControl
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

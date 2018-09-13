@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1198130237004216}
+  m_IsPrefabParent: 1
+--- !u!1 &1198130237004216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4308387086970808}
+  - component: {fileID: 114034184491232360}
+  - component: {fileID: 114404239081193976}
+  - component: {fileID: 114153141119332110}
+  - component: {fileID: 114108705107317766}
+  - component: {fileID: 114146542565026432}
+  m_Layer: 4
+  m_Name: Open Ocean
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1384172499390444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4307148258104166}
+  - component: {fileID: 20499874160476360}
+  m_Layer: 4
+  m_Name: Water Reflection Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4307148258104166
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1384172499390444}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.16, y: 4.203601, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4308387086970808}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4308387086970808
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198130237004216}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.1736, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4307148258104166}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20499874160476360
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1384172499390444}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4291821551
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!114 &114034184491232360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198130237004216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88dd808423bf564d83582d207a01668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shaderSet: {fileID: 11400000, guid: 95caf90330829fc4c90e636429ca1e33, type: 2}
+  seed: 9519373
+  materials:
+    directionalLightsIntensity: 1
+    tesselationFactor: 1
+  profilesManager:
+    initialProfile: {fileID: 11400000, guid: 767713e7d1e6c9d4494f5df47d9ba86a, type: 2}
+    changed:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PlayWay.Water.Water+WaterEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  geometry:
+    type: 0
+    baseVertexCount: 118000
+    tesselatedBaseVertexCount: 12400
+    adaptToResolution: 1
+    customSurfaceMeshes:
+      customMeshes: []
+    customMeshes: []
+  waterRenderer:
+    volumeFrontShader: {fileID: 4800000, guid: 64ad9e0f98b246b4d8fb65db4657748c, type: 3}
+    volumeFrontFastShader: {fileID: 0}
+    volumeBackShader: {fileID: 4800000, guid: fde7353775d2ae342a3acdd614faaaa5, type: 3}
+    reflectionProbeAnchor: {fileID: 0}
+    shadowCastingMode: 0
+    useSharedMask: 1
+  volume:
+    boundless: 1
+  subsurfaceScattering:
+    collectLightShader: {fileID: 4800000, guid: cf0d23c173301954caf49a350b2db702,
+      type: 3}
+    collectTransmissionShader: {fileID: 0}
+    mode: 1
+    subsurfaceScatteringBlur:
+      blurComputeShader: {fileID: 7200000, guid: 2145971c025bf804593a6ace73ec00bf,
+        type: 3}
+      blurShader: {fileID: 4800000, guid: 3f88a2e1b7989214a965579bfd9f7a5a, type: 3}
+      computeShaderKernelIndex: 6
+      iterations: 5
+      size: 0.0009999999
+      initializedDefaults: 1
+    ignoredLightFraction: 0.15
+    ambientResolution: 128
+    lightCount: -1
+    lightingLayer: 22
+  dynamicWaterData:
+    Antialiasing: 1
+    InteractionMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    RenderCustomEffects: 0
+    CustomEffectsLayerMask:
+      serializedVersion: 2
+      m_Bits: 0
+  foamData:
+    Supersampling: 1
+  planarReflectionData:
+    ReflectionMask:
+      serializedVersion: 2
+      m_Bits: 2147483647
+    ReflectSkybox: 1
+    RenderShadows: 1
+    Resolution: 0.5
+    RetinaResolution: 0.3
+  windWavesData:
+    WindDirectionPointer: {fileID: 0}
+    Resolution: 256
+    HighPrecision: 1
+    CpuWaveThreshold: 0.008
+    CpuMaxWaves: 2500
+    CpuFFTPrecisionBoost: 1
+    CpuDesiredStandardError: 0.12
+    CopyFrom: {fileID: 0}
+    LoopDuration: 0
+    WindDirectionChanged:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PlayWay.Water.WindWaves+WindWavesEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ResolutionChanged:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PlayWay.Water.WindWaves+WindWavesEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    MipBias: 0
+    WavesRendererFFTData:
+      HighQualityNormalMaps: 1
+      ForcePixelShader: 0
+      FlattenMode: 0
+      CachedFrameCount: 180
+    WavesRendererGerstnerData:
+      NumGerstners: 20
+  dontRotateUpwards: 0
+  fastEnableDisable: 0
+  version: 1.14
+  refraction: 1
+  blendEdges: 1
+  receiveShadows: 0
+  tesselationFactor: 0.88
+  useCubemapReflections: 1
+--- !u!114 &114108705107317766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198130237004216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0a4ad2c0b48534ab2cc9d7ab6d39d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprayTiledGeneratorShader: {fileID: 4800000, guid: 2bb87209925254746868d59aa9a48670,
+    type: 3}
+  sprayLocalGeneratorShader: {fileID: 4800000, guid: bd79e7dae3b60354aa008bc646816f42,
+    type: 3}
+  sprayToFoamShader: {fileID: 4800000, guid: 196f27a28c08d774fb6a8e0b4b6112a9, type: 3}
+  sprayControllerShader: {fileID: 7200000, guid: 7ae787696f292d649a626c1ae38084ef,
+    type: 3}
+  sprayMaterial: {fileID: 2100000, guid: 0743ff256c927da408cff17089724f2a, type: 2}
+  maxParticles: 327675
+  sprayToFoam: 1
+--- !u!114 &114146542565026432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198130237004216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 715b1c283d4a3dd40bcaf90256c727b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windDirectionPointer: {fileID: 0}
+  resolution: 256
+  highPrecision: 1
+  cpuWaveThreshold: 0.008
+  cpuMaxWaves: 2500
+  cpuFFTPrecisionBoost: 1
+  renderMode: 0
+  windDirectionChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PlayWay.Water.WindWaves+WindWavesEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  resolutionChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PlayWay.Water.WindWaves+WindWavesEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  mipBias: 0
+--- !u!114 &114153141119332110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198130237004216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50da314bd82647247968b3d33525da72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  supersampling: 2
+--- !u!114 &114404239081193976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198130237004216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5865245d0398534499571a8492d09a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reflectionCamera: {fileID: 20499874160476360}
+  reflectSkybox: 1
+  downsample: 2
+  retinaDownsample: 3
+  reflectionMask:
+    serializedVersion: 2
+    m_Bits: 4291821551
+  highQuality: 1
+  clipPlaneOffset: 0.07

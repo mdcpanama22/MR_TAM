@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: f7406e916f0f02d4699c8fb6c1966c37
+timeCreated: 1512644732
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: egg_1
+    100004: egg_2
+    100006: egg_3
+    100008: egg_4
+    100010: egg_5
+    100012: egg_6
+    100014: egg_7
+    100016: egg_8
+    100018: intestine_bottom_JNT
+    100020: intestine_lower_JNT
+    100022: intestine_main_JNT
+    100024: intestine_top_JNT
+    100026: intestine_upper_JNT
+    100028: L_firstleg_2_JNT
+    100030: L_firstleg_3_JNT
+    100032: L_firstleg_JNT
+    100034: L_fourthleg_2_JNT
+    100036: L_fourthleg_JNT
+    100038: L_secleg_2_JNT
+    100040: L_secleg_3_JNT
+    100042: L_secleg_JNT
+    100044: L_thirdleg_2_JNT
+    100046: L_thirdleg_3_JNT
+    100048: L_thirdleg_JNT
+    100050: Left_longarm_2_JNT
+    100052: Left_longarm_JNT
+    100054: Main_CNTRL
+    100056: main_head_JNT
+    100058: main_tail__JNT
+    100060: R_firstleg_2_JNT
+    100062: R_firstleg_3_JNT
+    100064: R_firstleg_JNT
+    100066: R_fourthleg_2_JNT
+    100068: R_fourthleg_JNT
+    100070: R_secleg_2_JNT
+    100072: R_secleg_3_JNT
+    100074: R_secleg_JNT
+    100076: R_thirdleg_2_JNT
+    100078: R_thirdleg_3_JNT
+    100080: R_thirdleg_JNT
+    100082: Right_longarm_2_JNT
+    100084: Right_longarm_JNT
+    100086: root_JNT
+    100088: second_tail_JNT
+    100090: spiny_eggs
+    100092: spiny_eye_GEO
+    100094: spiny_GEO
+    100096: spiny_intestine
+    100098: spiny_roundpart
+    100100: transform1
+    400000: //RootNode
+    400002: egg_1
+    400004: egg_2
+    400006: egg_3
+    400008: egg_4
+    400010: egg_5
+    400012: egg_6
+    400014: egg_7
+    400016: egg_8
+    400018: intestine_bottom_JNT
+    400020: intestine_lower_JNT
+    400022: intestine_main_JNT
+    400024: intestine_top_JNT
+    400026: intestine_upper_JNT
+    400028: L_firstleg_2_JNT
+    400030: L_firstleg_3_JNT
+    400032: L_firstleg_JNT
+    400034: L_fourthleg_2_JNT
+    400036: L_fourthleg_JNT
+    400038: L_secleg_2_JNT
+    400040: L_secleg_3_JNT
+    400042: L_secleg_JNT
+    400044: L_thirdleg_2_JNT
+    400046: L_thirdleg_3_JNT
+    400048: L_thirdleg_JNT
+    400050: Left_longarm_2_JNT
+    400052: Left_longarm_JNT
+    400054: Main_CNTRL
+    400056: main_head_JNT
+    400058: main_tail__JNT
+    400060: R_firstleg_2_JNT
+    400062: R_firstleg_3_JNT
+    400064: R_firstleg_JNT
+    400066: R_fourthleg_2_JNT
+    400068: R_fourthleg_JNT
+    400070: R_secleg_2_JNT
+    400072: R_secleg_3_JNT
+    400074: R_secleg_JNT
+    400076: R_thirdleg_2_JNT
+    400078: R_thirdleg_3_JNT
+    400080: R_thirdleg_JNT
+    400082: Right_longarm_2_JNT
+    400084: Right_longarm_JNT
+    400086: root_JNT
+    400088: second_tail_JNT
+    400090: spiny_eggs
+    400092: spiny_eye_GEO
+    400094: spiny_GEO
+    400096: spiny_intestine
+    400098: spiny_roundpart
+    400100: transform1
+    2300000: egg_1
+    2300002: egg_2
+    2300004: egg_3
+    2300006: egg_4
+    2300008: egg_5
+    2300010: egg_6
+    2300012: egg_7
+    2300014: egg_8
+    2300016: spiny_eye_GEO
+    2300018: spiny_roundpart
+    3300000: egg_1
+    3300002: egg_2
+    3300004: egg_3
+    3300006: egg_4
+    3300008: egg_5
+    3300010: egg_6
+    3300012: egg_7
+    3300014: egg_8
+    3300016: spiny_eye_GEO
+    3300018: spiny_roundpart
+    4300000: spiny_eye_GEO
+    4300002: egg_1
+    4300004: egg_2
+    4300006: egg_3
+    4300008: egg_4
+    4300010: egg_5
+    4300012: egg_6
+    4300014: egg_7
+    4300016: egg_8
+    4300018: spiny_roundpart
+    4300020: spiny_GEO
+    4300022: spiny_intestine
+    7400000: Bythotrephes_Idle_Fast
+    9500000: //RootNode
+    13700000: spiny_GEO
+    13700002: spiny_intestine
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bythotrephes_Idle_Fast
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: intestine_main_JNT
+        weight: 1
+      - path: intestine_main_JNT/intestine_lower_JNT
+        weight: 1
+      - path: intestine_main_JNT/intestine_lower_JNT/intestine_bottom_JNT
+        weight: 1
+      - path: intestine_main_JNT/intestine_upper_JNT
+        weight: 1
+      - path: intestine_main_JNT/intestine_upper_JNT/intestine_top_JNT
+        weight: 1
+      - path: Main_CNTRL
+        weight: 1
+      - path: Main_CNTRL/spiny_eggs
+        weight: 1
+      - path: Main_CNTRL/spiny_eggs/egg_1
+        weight: 1
+      - path: Main_CNTRL/spiny_eggs/egg_2
+        weight: 1
+      - path: Main_CNTRL/spiny_eggs/egg_3
+        weight: 1
+      - path: Main_CNTRL/spiny_eggs/egg_4
+        weight: 1
+      - path: Main_CNTRL/spiny_eggs/egg_5
+        weight: 1
+      - path: Main_CNTRL/spiny_eggs/egg_6
+        weight: 1
+      - path: Main_CNTRL/spiny_eggs/egg_7
+        weight: 1
+      - path: Main_CNTRL/spiny_eggs/egg_8
+        weight: 1
+      - path: Main_CNTRL/spiny_eggs/transform1
+        weight: 1
+      - path: Main_CNTRL/spiny_eye_GEO
+        weight: 1
+      - path: Main_CNTRL/spiny_roundpart
+        weight: 1
+      - path: root_JNT
+        weight: 1
+      - path: root_JNT/L_firstleg_JNT
+        weight: 1
+      - path: root_JNT/L_firstleg_JNT/L_firstleg_2_JNT
+        weight: 1
+      - path: root_JNT/L_firstleg_JNT/L_firstleg_2_JNT/L_firstleg_3_JNT
+        weight: 1
+      - path: root_JNT/L_fourthleg_JNT
+        weight: 1
+      - path: root_JNT/L_fourthleg_JNT/L_fourthleg_2_JNT
+        weight: 1
+      - path: root_JNT/L_secleg_JNT
+        weight: 1
+      - path: root_JNT/L_secleg_JNT/L_secleg_2_JNT
+        weight: 1
+      - path: root_JNT/L_secleg_JNT/L_secleg_2_JNT/L_secleg_3_JNT
+        weight: 1
+      - path: root_JNT/L_thirdleg_JNT
+        weight: 1
+      - path: root_JNT/L_thirdleg_JNT/L_thirdleg_2_JNT
+        weight: 1
+      - path: root_JNT/L_thirdleg_JNT/L_thirdleg_2_JNT/L_thirdleg_3_JNT
+        weight: 1
+      - path: root_JNT/main_head_JNT
+        weight: 1
+      - path: root_JNT/main_head_JNT/Left_longarm_JNT
+        weight: 1
+      - path: root_JNT/main_head_JNT/Left_longarm_JNT/Left_longarm_2_JNT
+        weight: 1
+      - path: root_JNT/main_head_JNT/Right_longarm_JNT
+        weight: 1
+      - path: root_JNT/main_head_JNT/Right_longarm_JNT/Right_longarm_2_JNT
+        weight: 1
+      - path: root_JNT/main_tail__JNT
+        weight: 1
+      - path: root_JNT/main_tail__JNT/second_tail_JNT
+        weight: 1
+      - path: root_JNT/R_firstleg_JNT
+        weight: 1
+      - path: root_JNT/R_firstleg_JNT/R_firstleg_2_JNT
+        weight: 1
+      - path: root_JNT/R_firstleg_JNT/R_firstleg_2_JNT/R_firstleg_3_JNT
+        weight: 1
+      - path: root_JNT/R_fourthleg_JNT
+        weight: 1
+      - path: root_JNT/R_fourthleg_JNT/R_fourthleg_2_JNT
+        weight: 1
+      - path: root_JNT/R_secleg_JNT
+        weight: 1
+      - path: root_JNT/R_secleg_JNT/R_secleg_2_JNT
+        weight: 1
+      - path: root_JNT/R_secleg_JNT/R_secleg_2_JNT/R_secleg_3_JNT
+        weight: 1
+      - path: root_JNT/R_thirdleg_JNT
+        weight: 1
+      - path: root_JNT/R_thirdleg_JNT/R_thirdleg_2_JNT
+        weight: 1
+      - path: root_JNT/R_thirdleg_JNT/R_thirdleg_2_JNT/R_thirdleg_3_JNT
+        weight: 1
+      - path: spiny_GEO
+        weight: 1
+      - path: spiny_GEO/spiny_intestine
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

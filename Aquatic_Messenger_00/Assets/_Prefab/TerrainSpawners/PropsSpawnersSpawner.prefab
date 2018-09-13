@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1301856020183894}
+  m_IsPrefabParent: 1
+--- !u!1 &1301856020183894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4524861749806104}
+  - component: {fileID: 114429743614563318}
+  m_Layer: 0
+  m_Name: PropsSpawnersSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4524861749806104
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301856020183894}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 39.5, y: 5.25, z: 47.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114429743614563318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301856020183894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67dcfbac0b7faee46ad19d99b4d5b678, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawners:
+  - template: {fileID: 4671283394868742, guid: 2a820b10a8ec99744857366dd4cb3f2d, type: 2}
+    max: 10
+    range: 10
+    minScale: 20
+    organismScale: 1
+    isFish: 0
+    onGround: 1
+  - template: {fileID: 4304795612603098, guid: 9fc0bae888b28f6468298425fcc0fb85, type: 2}
+    max: 10
+    range: 15
+    minScale: 20
+    organismScale: 1
+    isFish: 0
+    onGround: 1
+  - template: {fileID: 4019294028214612, guid: ea80df428d7482549bfda15203cf8b5e, type: 2}
+    max: 10
+    range: 10
+    minScale: 20
+    organismScale: 1
+    isFish: 0
+    onGround: 1
+  - template: {fileID: 4112925961363070, guid: 73bd94f8b4e71ac41b5fc6dd0ea82704, type: 2}
+    max: 10
+    range: 10
+    minScale: 20
+    organismScale: 1
+    isFish: 0
+    onGround: 1
+  followsPlayer: 1
+  waterLevel: {fileID: 0}
+  scaleMult: 8
+  movementVector: {x: 0, y: 0, z: 0}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9954acc3fea28ca49a5863928bc7ff21, type: 3}
+  m_Name: Container
+  m_EditorClassIdentifier: 
+  transparencyMode: 1
+  reflectionProbeUsage: 1
+  planarReflections: 0
+  receiveShadows: 0
+  windWavesMode: 0
+  dynamicSmoothnessMode: 0
+  localEffectsSupported: 0
+  localEffectsDebug: 0
+  foam: 0
+  forwardRenderMode: 0
+  deferredRenderMode: 1
+  projectionGrid: 0
+  customTriangularGeometry: 1
+  displayOnlyInAdditiveVolumes: 1
+  wavesAlign: 1
+  normalMappingMode: 0
+  supportEmission: 0
+  surfaceShaders:
+  - {fileID: 4800000, guid: 43e63812d3b143a43aca24a554c16214, type: 3}
+  volumeShaders:
+  - {fileID: 4800000, guid: f41f697b217e6ce47934e10ebc0dd959, type: 3}
+  utilityShaders:
+  - {fileID: 4800000, guid: 64bdf8c460574fe4eadf1780693edfb8, type: 3}
+  - {fileID: 4800000, guid: 3b204187f543deb49942ffa9918e3987, type: 3}
+  - {fileID: 4800000, guid: d09daa6f13a385f4497c91e74d615ad9, type: 3}
+  computeShaders:
+  - {fileID: 7200000, guid: 53b9e771c13f794409adf46b608c6df9, type: 3}

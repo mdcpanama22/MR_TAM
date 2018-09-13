@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 668bfd420f8db0f4b8817040cc5d5fbb
+timeCreated: 1491414398
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: October Twilight
+  fontNames:
+  - October Twilight
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3719770a87623064db8aaa3fd6065392, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

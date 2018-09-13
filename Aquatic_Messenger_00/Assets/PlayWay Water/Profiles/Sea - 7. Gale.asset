@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512b86c7ae63fe04c8c62616568703ff, type: 3}
+  m_Name: Sea - 7. Gale
+  m_EditorClassIdentifier: 
+  spectrumType: 1
+  windSpeed: 19.0328
+  tileSize: 180
+  tileScale: 1
+  wavesAmplitude: 0.6
+  wavesFrequencyScale: 1
+  horizontalDisplacementScale: 2.3
+  phillipsCutoffFactor: 2000
+  gravity: -9.81
+  fetch: 40000
+  directionality: 0.159
+  absorptionColor: {r: 0.3187518, g: 0.15052004, b: 0.11541088, a: 1}
+  customUnderwaterAbsorptionColor: 0
+  absorptionColorByDepth:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  absorptionColorByDepthFlatGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4280100433
+    key1:
+      serializedVersion: 2
+      rgba: 4280100433
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  diffuseColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  specularColor: {r: 0.02005932, g: 0.02005932, b: 0.02005932, a: 1}
+  depthColor: {r: 0, g: 0, b: 0, a: 1}
+  emissionColor: {r: 0, g: 0, b: 0, a: 1}
+  reflectionColor: {r: 1, g: 1, b: 1, a: 1}
+  smoothness: 0.94
+  customAmbientSmoothness: 0
+  ambientSmoothness: 0.94
+  isotropicScatteringIntensity: 1
+  forwardScatteringIntensity: 1
+  subsurfaceScatteringContrast: 0.686
+  subsurfaceScatteringShoreColor: {r: 0.93333346, g: 2, b: 2, a: 1}
+  refractionDistortion: 0.55
+  fresnelBias: 0.020407815
+  detailFadeDistance: 4
+  displacementNormalsIntensity: 1.4
+  planarReflectionIntensity: 0.55
+  planarReflectionFlatten: 2.4
+  planarReflectionVerticalOffset: 0.0015
+  edgeBlendFactor: 0.5
+  directionalWrapSSS: 0.2
+  pointWrapSSS: 0.45
+  density: 998.6
+  underwaterBlurSize: 0.0018
+  underwaterLightFadeScale: 0.8
+  underwaterDistortionsIntensity: 0.06
+  underwaterDistortionAnimationSpeed: 0.165
+  dynamicSmoothnessIntensity: 15
+  normalMapAnimation1:
+    speed: 3
+    deviation: -10
+    intensity: 1
+    tiling: {x: 1, y: 1}
+  normalMapAnimation2:
+    speed: -0.55
+    deviation: 20
+    intensity: 0.74
+    tiling: {x: 1.5, y: 1.5}
+  normalMap: {fileID: 0}
+  foamIntensity: 0.6
+  foamThreshold: 11
+  foamFadingFactor: 0.96
+  foamShoreIntensity: 1.23
+  foamShoreExtent: 1.56
+  foamNormalScale: 0.4
+  foamDiffuseColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  foamSpecularColor: {r: 0.479952, g: 0.528, b: 0.516711, a: 0.947}
+  sprayThreshold: 1
+  spraySkipRatio: 0.9
+  spraySize: 1
+  foamDiffuseMap: {fileID: 2800000, guid: f9b33d3272df3314c8cb86b7007f80d3, type: 3}
+  foamNormalMap: {fileID: 2800000, guid: c424cb098c67a2d48946c5c3a97c3cb9, type: 3}
+  foamTiling: {x: 6, y: 6}

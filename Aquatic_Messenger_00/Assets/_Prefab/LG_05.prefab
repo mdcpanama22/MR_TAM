@@ -1,0 +1,1129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1715244425118020}
+  m_IsPrefabParent: 1
+--- !u!1 &1715244425118020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4436242824998686}
+  - component: {fileID: 218614307848890124}
+  - component: {fileID: 154799169380615234}
+  - component: {fileID: 114580967919765358}
+  m_Layer: 0
+  m_Name: LG_05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4436242824998686
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715244425118020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2108.977, y: -1017, z: -1151.502}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114580967919765358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715244425118020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b895cc0f7bca8d4d83e11db00b40619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlA: {fileID: 2851484, guid: a95379fd9dcaf4a04ad39e4fb920f845, type: 2}
+  controlB: {fileID: 2862520, guid: a95379fd9dcaf4a04ad39e4fb920f845, type: 2}
+  controlC: {fileID: 28428786347857330, guid: a95379fd9dcaf4a04ad39e4fb920f845, type: 2}
+  save_path_controlA: 
+  save_path_controlB: 
+  save_path_controlC: 
+  save_path_colormap: 
+  save_path_BumpGlobalCombined: 
+  save_path_WetMask: 
+  NormalGlobal: {fileID: 0}
+  TreesGlobal: {fileID: 0}
+  ColorGlobal: {fileID: 0}
+  AmbientEmissiveMap: {fileID: 0}
+  BumpGlobalCombined: {fileID: 0}
+  TERRAIN_WetMask: {fileID: 0}
+  tmp_globalColorMap: {fileID: 0}
+  tmp_CombinedMap: {fileID: 0}
+  tmp_WaterMap: {fileID: 0}
+  globalColorModifed_flag: 0
+  globalCombinedModifed_flag: 0
+  globalWaterModifed_flag: 0
+  splat_layer_ordered_mode: 0
+  source_controls_channels: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  splat_layer_seq: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
+  splat_layer_boost:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  splat_layer_calc: 000000000000000000000000
+  splat_layer_masked: 000000000000000000000000
+  source_controls_mask_channels: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  source_controls:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  source_controls_invert: 000000000000000000000000
+  source_controls_mask:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  source_controls_mask_invert: 000000000000000000000000
+  customTiling: {x: 3, y: 3}
+  presetHolders: []
+  globalSettingsHolder:
+    numTiles: 0
+    numLayers: 9
+    splats:
+    - {fileID: 2800000, guid: 86d40b6885af543e08d6a5e6772b85e0, type: 3}
+    - {fileID: 2800000, guid: 5ff03f4f782ef4f67a860b8b2ba2a4e7, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 2800000, guid: ddc9f9d8d0d6f4b47ad71ff8cff68686, type: 3}
+    - {fileID: 2800000, guid: cf82722d7e18c4e46b68a9dc6f99824e, type: 3}
+    - {fileID: 2800000, guid: 7c98cad1a52b745d4a0661ea3a92733d, type: 3}
+    splat_atlases:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    save_path_atlasA: 
+    save_path_atlasB: 
+    save_path_atlasC: 
+    save_path_terrain_steepness: 
+    save_path_terrain_height: 
+    save_path_terrain_direction: 
+    save_path_Bump01: 
+    save_path_Bump23: 
+    save_path_Bump45: 
+    save_path_Bump67: 
+    save_path_Bump89: 
+    save_path_BumpAB: 
+    save_path_HeightMap: 
+    save_path_HeightMap2: 
+    save_path_HeightMap3: 
+    save_path_SSColorCombinedA: 
+    save_path_SSColorCombinedB: 
+    newPresetName: a preset name...
+    activateObject: {fileID: 0}
+    _RTP_LODmanagerScript: {fileID: 0}
+    RTP_MIP_BIAS: 0
+    MasterLayerBrightness: 1
+    MasterLayerSaturation: 1
+    EmissionRefractFiltering: 4
+    EmissionRefractAnimSpeed: 4
+    SuperDetailA_channel: 0
+    SuperDetailB_channel: 0
+    Bump01: {fileID: 0}
+    Bump23: {fileID: 0}
+    Bump45: {fileID: 0}
+    Bump67: {fileID: 0}
+    Bump89: {fileID: 0}
+    BumpAB: {fileID: 0}
+    BumpGlobal: {fileID: 0}
+    BumpGlobalCombinedSize: 1024
+    SSColorCombinedA: {fileID: 0}
+    SSColorCombinedB: {fileID: 0}
+    VerticalTexture: {fileID: 0}
+    BumpMapGlobalScale: 0.1
+    GlobalColorMapBlendValues: {x: 0.2, y: 0.4, z: 0.5}
+    _GlobalColorMapNearMIP: 0
+    GlobalColorMapSaturation: 1
+    GlobalColorMapSaturationFar: 1
+    GlobalColorMapDistortByPerlin: 0.005
+    GlobalColorMapBrightness: 1
+    GlobalColorMapBrightnessFar: 1
+    _FarNormalDamp: 0.2
+    blendMultiplier: 1
+    terrainTileSize: {x: 4096, y: 2048, z: 4096}
+    HeightMap: {fileID: 0}
+    ReliefTransform: {x: 3, y: 3, z: 0, w: 0}
+    DIST_STEPS: 20
+    WAVELENGTH: 2
+    ReliefBorderBlend: 6
+    ExtrudeHeight: 0.05
+    LightmapShading: 0
+    RTP_AOsharpness: 1.5
+    RTP_AOamp: 0.1
+    _occlusionStrength: 1
+    SHADOW_STEPS: 20
+    WAVELENGTH_SHADOWS: 2
+    SelfShadowStrength: 0.8
+    ShadowSmoothing: 1
+    ShadowSoftnessFade: 0.8
+    distance_start: 5
+    distance_transition: 20
+    distance_start_bumpglobal: 30
+    distance_transition_bumpglobal: 30
+    rtp_perlin_start_val: 0
+    _Phong: 0
+    tessHeight: 300
+    _TessSubdivisions: 1
+    _TessSubdivisionsFar: 1
+    _TessYOffset: 0
+    trees_shadow_distance_start: 50
+    trees_shadow_distance_transition: 10
+    trees_shadow_value: 0.5
+    trees_pixel_distance_start: 500
+    trees_pixel_distance_transition: 10
+    trees_pixel_blend_val: 2
+    global_normalMap_multiplier: 1
+    global_normalMap_farUsage: 0
+    _AmbientEmissiveMultiplier: 1
+    _AmbientEmissiveRelief: 0.5
+    HeightMap2: {fileID: 0}
+    HeightMap3: {fileID: 0}
+    rtp_mipoffset_globalnorm: 0
+    _SuperDetailTiling: 8
+    SuperDetailA: {fileID: 0}
+    SuperDetailB: {fileID: 0}
+    TERRAIN_GlobalWetness: 1
+    TERRAIN_RippleMap: {fileID: 0}
+    TERRAIN_RippleScale: 4
+    TERRAIN_FlowScale: 1
+    TERRAIN_FlowSpeed: 0.5
+    TERRAIN_FlowCycleScale: 1
+    TERRAIN_FlowMipOffset: 0
+    TERRAIN_WetDarkening: 0.5
+    TERRAIN_WetDropletsStrength: 0
+    TERRAIN_WetHeight_Treshold: -200
+    TERRAIN_WetHeight_Transition: 5
+    TERRAIN_RainIntensity: 1
+    TERRAIN_DropletsSpeed: 10
+    TERRAIN_mipoffset_flowSpeed: 1
+    TERRAIN_CausticsAnimSpeed: 2
+    TERRAIN_CausticsColor: {r: 1, g: 1, b: 1, a: 1}
+    TERRAIN_CausticsWaterLevelRefObject: {fileID: 0}
+    TERRAIN_CausticsWaterLevel: 30
+    TERRAIN_CausticsWaterLevelByAngle: 2
+    TERRAIN_CausticsWaterDeepFadeLength: 50
+    TERRAIN_CausticsWaterShallowFadeLength: 30
+    TERRAIN_CausticsTilingScale: 1
+    TERRAIN_CausticsTex: {fileID: 0}
+    RTP_LightDefVector: {x: 0.05, y: 0.5, z: 0.5, w: 25}
+    Bumps:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 2800000, guid: 3069a95563a1943aea86de8547f18c1f, type: 3}
+    FarSpecCorrection:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MIPmult:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MixScale:
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0
+    - 0
+    - 0
+    - 0
+    MixBlend:
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0
+    - 0
+    - 0
+    - 0
+    MixSaturation:
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0
+    - 0
+    - 0
+    - 0
+    RTP_DiffFresnel:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    RTP_metallic:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    RTP_glossMin:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    RTP_glossMax:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    RTP_glitter:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    GlobalColorBottom:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    GlobalColorTop:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    GlobalColorColormapLoSat:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    GlobalColorColormapHiSat:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    GlobalColorLayerLoSat:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    GlobalColorLayerHiSat:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    GlobalColorLoBlend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    GlobalColorHiBlend:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    MixBrightness:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    MixReplace:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    LayerBrightness:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    LayerBrightness2Spec:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    LayerAlbedo2SpecColor:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    LayerSaturation:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    LayerEmission:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    LayerEmissionColor:
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0, g: 0, b: 0, a: 0}
+    - {r: 0, g: 0, b: 0, a: 0}
+    - {r: 0, g: 0, b: 0, a: 0}
+    - {r: 0, g: 0, b: 0, a: 0}
+    LayerEmissionRefractStrength:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    LayerEmissionRefractHBedge:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    GlobalColorPerLayer:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    PER_LAYER_HEIGHT_MODIFIER:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    _SuperDetailStrengthMultA:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    _SuperDetailStrengthMultASelfMaskNear:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    _SuperDetailStrengthMultASelfMaskFar:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    _SuperDetailStrengthMultB:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    _SuperDetailStrengthMultBSelfMaskNear:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    _SuperDetailStrengthMultBSelfMaskFar:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    _SuperDetailStrengthNormal:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    _BumpMapGlobalStrength:
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0
+    - 0
+    - 0
+    - 0
+    AO_strength:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    VerticalTextureStrength:
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0
+    - 0
+    - 0
+    - 0
+    VerticalTextureGlobalBumpInfluence: 0
+    VerticalTextureTiling: 50
+    Heights:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    _snow_strength_per_layer:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    Substances:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    TERRAIN_LayerWetStrength:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_WaterLevel:
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_WaterLevelSlopeDamp:
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_WaterEdge:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_WaterGloss:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_WaterGlossDamper:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_Refraction:
+    - 0.01
+    - 0.01
+    - 0.01
+    - 0.01
+    - 0.01
+    - 0.01
+    - 0.01
+    - 0.01
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_WetRefraction:
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_Flow:
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0.3
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_WetFlow:
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_WaterMetallic:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_WetGloss:
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0
+    - 0
+    - 0
+    - 0
+    TERRAIN_WaterColor:
+    - {r: 0.9, g: 0.9, b: 1, a: 0.5}
+    - {r: 0.9, g: 0.9, b: 1, a: 0.5}
+    - {r: 0.9, g: 0.9, b: 1, a: 0.5}
+    - {r: 0.9, g: 0.9, b: 1, a: 0.5}
+    - {r: 0.9, g: 0.9, b: 1, a: 0.5}
+    - {r: 0.9, g: 0.9, b: 1, a: 0.5}
+    - {r: 0.9, g: 0.9, b: 1, a: 0.5}
+    - {r: 0.9, g: 0.9, b: 1, a: 0.5}
+    - {r: 0, g: 0, b: 0, a: 0}
+    - {r: 0, g: 0, b: 0, a: 0}
+    - {r: 0, g: 0, b: 0, a: 0}
+    - {r: 0, g: 0, b: 0, a: 0}
+    TERRAIN_WaterEmission:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    _snow_strength: 1
+    _global_color_brightness_to_snow: 0.3
+    _snow_slope_factor: 2
+    _snow_edge_definition: 2
+    _snow_height_treshold: -200
+    _snow_height_transition: 1
+    _snow_color: {r: 1, g: 1, b: 1, a: 1}
+    _snow_gloss: 0.7
+    _snow_reflectivness: 0.7
+    _snow_deep_factor: 1.5
+    _snow_diff_fresnel: 0.5
+    _snow_metallic: 0
+    _snow_Frost: 0
+    _snow_MicroTiling: 1
+    _snow_BumpMicro: 0.2
+    _SnowGlitterColor: {r: 1, g: 1, b: 1, a: 0.1}
+    _snow_occlusionStrength: 0.5
+    _snow_TranslucencyDeferredLightIndex: 0
+    _GlitterColor: {r: 1, g: 1, b: 1, a: 0.1}
+    _GlitterStrength:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    _GlitterTiling: 1
+    _GlitterDensity: 0.1
+    _GlitterFilter: 0
+    _GlitterColorization: 0.5
+    _SparkleMap: {fileID: 2800000, guid: 58d91b9c15e76ee489eb634baedb9497, type: 3}
+    _4LAYERS_SHADER_USED: 1
+    flat_dir_ref: 1
+    flip_dir_ref: 1
+    direction_object: {fileID: 0}
+    show_details: 0
+    show_details_main: 0
+    show_details_atlasing: 0
+    show_details_layers: 0
+    show_details_uv_blend: 0
+    show_controlmaps: 0
+    show_controlmaps_build: 0
+    show_controlmaps_helpers: 0
+    show_controlmaps_highcost: 0
+    show_controlmaps_splats: 0
+    show_vert_texture: 0
+    show_global_color: 0
+    show_snow: 0
+    show_global_bump: 0
+    show_global_bump_normals: 0
+    show_global_bump_superdetail: 0
+    submenu: 3
+    submenu_settings: 7
+    submenu_derived_textures: 1
+    submenu_control_textures: 0
+    show_global_wet_settings: 0
+    show_global_reflection_settings: 0
+    show_active_layer: 0
+    show_derivedmaps: 0
+    show_settings: 1
+    undo_flag: 0
+    paint_flag: 0
+    paint_size: 0.5
+    paint_smoothness: 0
+    paint_opacity: 1
+    paintColor: {r: 0.5, g: 0.3, b: 0, a: 0}
+    preserveBrightness: 1
+    paint_alpha_flag: 0
+    paint_wetmask: 1
+    paintHitInfo_flag: 0
+    cut_holes: 0
+    paintColorSwatches: []
+    use_mat: {fileID: 0}
+--- !u!154 &154799169380615234
+TerrainCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715244425118020}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: a95379fd9dcaf4a04ad39e4fb920f845, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &218614307848890124
+Terrain:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715244425118020}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_TerrainData: {fileID: 15600000, guid: a95379fd9dcaf4a04ad39e4fb920f845, type: 2}
+  m_TreeDistance: 2000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 500000
+  m_HeightmapMaximumLOD: 0
+  m_CastShadows: 1
+  m_DrawHeightmap: 1
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialType: 3
+  m_LegacySpecular:
+    serializedVersion: 2
+    rgba: 4286545791
+  m_LegacyShininess: 0.078125
+  m_MaterialTemplate: {fileID: 0}
+  m_BakeLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.00625
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}

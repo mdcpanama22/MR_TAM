@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 90f7cb60b8b14dc4eac0b5844bfb2fc1
+timeCreated: 1464121172
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: digestive_tract
+    100002: eggs
+    100004: eye
+    100006: head_JNT
+    100008: inner_digestive_tract1
+    100010: left_arm_1_JNT
+    100012: left_arm_2_JNT
+    100014: left_arm_CNTRL
+    100016: left_first_leg_1_CNTRL
+    100018: left_first_leg_1_JNT
+    100020: left_first_leg_2_CNTRL
+    100022: left_first_leg_2_JNT
+    100024: left_first_leg_3_CNTRL
+    100026: left_first_leg_3_JNT
+    100028: left_fourth_leg_1_CNTRL
+    100030: left_fourth_leg_1_JNT
+    100032: left_fourth_leg_2_CNTRL
+    100034: left_fourth_leg_2_JNT
+    100036: left_sec_leg_1_CNTRL
+    100038: left_sec_leg_1_JNT
+    100040: left_sec_leg_2_CNTRL
+    100042: left_sec_leg_2_JNT
+    100044: left_sec_leg_3_CNTRL
+    100046: left_sec_leg_3_JNT
+    100048: left_third_leg_1_CNTRL
+    100050: left_third_leg_1_JNT
+    100052: left_third_leg_2_CNTRL
+    100054: left_third_leg_2_JNT
+    100056: left_third_leg_3_CNTRL
+    100058: left_third_leg_3_JNT
+    100060: Main_CNTRL
+    100062: main_JNT
+    100064: polyphemus_GEO
+    100066: //RootNode
+    100068: right_arm_1_JNT
+    100070: right_arm_2_JNT
+    100072: right_arm_CNTRL
+    100074: right_first_leg_1_CNTRL
+    100076: right_first_leg_1_JNT
+    100078: right_first_leg_2_CNTRL
+    100080: right_first_leg_2_JNT
+    100082: right_first_leg_3_CNTRL
+    100084: right_first_leg_3_JNT
+    100086: right_fourth_leg_1_CNTRL
+    100088: right_fourth_leg_1_JNT
+    100090: right_fourth_leg_2_CNTRL
+    100092: right_fourth_leg_2_JNT
+    100094: right_sec_leg_1_CNTRL
+    100096: right_sec_leg_1_JNT
+    100098: right_sec_leg_2_CNTRL
+    100100: right_sec_leg_2_JNT
+    100102: right_sec_leg_3_CNTRL
+    100104: right_sec_leg_3_JNT
+    100106: right_third_leg_1_CNTRL
+    100108: right_third_leg_1_JNT
+    100110: right_third_leg_2_CNTRL
+    100112: right_third_leg_2_JNT
+    100114: right_third_leg_3_CNTRL
+    100116: right_third_leg_3_JNT
+    100118: tail_1_JNT
+    100120: tail_2_JNT
+    100122: tail_CNTRL
+    400000: digestive_tract
+    400002: eggs
+    400004: eye
+    400006: head_JNT
+    400008: inner_digestive_tract1
+    400010: left_arm_1_JNT
+    400012: left_arm_2_JNT
+    400014: left_arm_CNTRL
+    400016: left_first_leg_1_CNTRL
+    400018: left_first_leg_1_JNT
+    400020: left_first_leg_2_CNTRL
+    400022: left_first_leg_2_JNT
+    400024: left_first_leg_3_CNTRL
+    400026: left_first_leg_3_JNT
+    400028: left_fourth_leg_1_CNTRL
+    400030: left_fourth_leg_1_JNT
+    400032: left_fourth_leg_2_CNTRL
+    400034: left_fourth_leg_2_JNT
+    400036: left_sec_leg_1_CNTRL
+    400038: left_sec_leg_1_JNT
+    400040: left_sec_leg_2_CNTRL
+    400042: left_sec_leg_2_JNT
+    400044: left_sec_leg_3_CNTRL
+    400046: left_sec_leg_3_JNT
+    400048: left_third_leg_1_CNTRL
+    400050: left_third_leg_1_JNT
+    400052: left_third_leg_2_CNTRL
+    400054: left_third_leg_2_JNT
+    400056: left_third_leg_3_CNTRL
+    400058: left_third_leg_3_JNT
+    400060: Main_CNTRL
+    400062: main_JNT
+    400064: polyphemus_GEO
+    400066: //RootNode
+    400068: right_arm_1_JNT
+    400070: right_arm_2_JNT
+    400072: right_arm_CNTRL
+    400074: right_first_leg_1_CNTRL
+    400076: right_first_leg_1_JNT
+    400078: right_first_leg_2_CNTRL
+    400080: right_first_leg_2_JNT
+    400082: right_first_leg_3_CNTRL
+    400084: right_first_leg_3_JNT
+    400086: right_fourth_leg_1_CNTRL
+    400088: right_fourth_leg_1_JNT
+    400090: right_fourth_leg_2_CNTRL
+    400092: right_fourth_leg_2_JNT
+    400094: right_sec_leg_1_CNTRL
+    400096: right_sec_leg_1_JNT
+    400098: right_sec_leg_2_CNTRL
+    400100: right_sec_leg_2_JNT
+    400102: right_sec_leg_3_CNTRL
+    400104: right_sec_leg_3_JNT
+    400106: right_third_leg_1_CNTRL
+    400108: right_third_leg_1_JNT
+    400110: right_third_leg_2_CNTRL
+    400112: right_third_leg_2_JNT
+    400114: right_third_leg_3_CNTRL
+    400116: right_third_leg_3_JNT
+    400118: tail_1_JNT
+    400120: tail_2_JNT
+    400122: tail_CNTRL
+    2300000: digestive_tract
+    2300002: eggs
+    2300004: eye
+    2300006: inner_digestive_tract1
+    3300000: digestive_tract
+    3300002: eggs
+    3300004: eye
+    3300006: inner_digestive_tract1
+    4300000: polyphemus_GEO
+    4300002: eggs
+    4300004: digestive_tract
+    4300006: inner_digestive_tract1
+    4300008: eye
+    7400000: Swim
+    9500000: //RootNode
+    13700000: polyphemus_GEO
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Swim
+      takeName: Swim
+      firstFrame: 11
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_arm_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_first_leg_1_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_first_leg_1_CNTRL/left_first_leg_2_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_first_leg_1_CNTRL/left_first_leg_2_CNTRL/left_first_leg_3_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_fourth_leg_1_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_fourth_leg_1_CNTRL/left_fourth_leg_2_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_sec_leg_1_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_sec_leg_1_CNTRL/left_sec_leg_2_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_sec_leg_1_CNTRL/left_sec_leg_2_CNTRL/left_sec_leg_3_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_third_leg_1_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_third_leg_1_CNTRL/left_third_leg_2_CNTRL
+        weight: 1
+      - path: Main_CNTRL/left_third_leg_1_CNTRL/left_third_leg_2_CNTRL/left_third_leg_3_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_arm_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_first_leg_1_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_first_leg_1_CNTRL/right_first_leg_2_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_first_leg_1_CNTRL/right_first_leg_2_CNTRL/right_first_leg_3_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_fourth_leg_1_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_fourth_leg_1_CNTRL/right_fourth_leg_2_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_sec_leg_1_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_sec_leg_1_CNTRL/right_sec_leg_2_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_sec_leg_1_CNTRL/right_sec_leg_2_CNTRL/right_sec_leg_3_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_third_leg_1_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_third_leg_1_CNTRL/right_third_leg_2_CNTRL
+        weight: 1
+      - path: Main_CNTRL/right_third_leg_1_CNTRL/right_third_leg_2_CNTRL/right_third_leg_3_CNTRL
+        weight: 1
+      - path: Main_CNTRL/tail_CNTRL
+        weight: 1
+      - path: main_JNT
+        weight: 1
+      - path: main_JNT/digestive_tract
+        weight: 1
+      - path: main_JNT/digestive_tract/inner_digestive_tract1
+        weight: 1
+      - path: main_JNT/eggs
+        weight: 1
+      - path: main_JNT/eye
+        weight: 1
+      - path: main_JNT/head_JNT
+        weight: 1
+      - path: main_JNT/head_JNT/left_arm_1_JNT
+        weight: 1
+      - path: main_JNT/head_JNT/left_arm_1_JNT/left_arm_2_JNT
+        weight: 1
+      - path: main_JNT/head_JNT/right_arm_1_JNT
+        weight: 1
+      - path: main_JNT/head_JNT/right_arm_1_JNT/right_arm_2_JNT
+        weight: 1
+      - path: main_JNT/left_first_leg_1_JNT
+        weight: 1
+      - path: main_JNT/left_first_leg_1_JNT/left_first_leg_2_JNT
+        weight: 1
+      - path: main_JNT/left_first_leg_1_JNT/left_first_leg_2_JNT/left_first_leg_3_JNT
+        weight: 1
+      - path: main_JNT/left_fourth_leg_1_JNT
+        weight: 1
+      - path: main_JNT/left_fourth_leg_1_JNT/left_fourth_leg_2_JNT
+        weight: 1
+      - path: main_JNT/left_sec_leg_1_JNT
+        weight: 1
+      - path: main_JNT/left_sec_leg_1_JNT/left_sec_leg_2_JNT
+        weight: 1
+      - path: main_JNT/left_sec_leg_1_JNT/left_sec_leg_2_JNT/left_sec_leg_3_JNT
+        weight: 1
+      - path: main_JNT/left_third_leg_1_JNT
+        weight: 1
+      - path: main_JNT/left_third_leg_1_JNT/left_third_leg_2_JNT
+        weight: 1
+      - path: main_JNT/left_third_leg_1_JNT/left_third_leg_2_JNT/left_third_leg_3_JNT
+        weight: 1
+      - path: main_JNT/right_first_leg_1_JNT
+        weight: 1
+      - path: main_JNT/right_first_leg_1_JNT/right_first_leg_2_JNT
+        weight: 1
+      - path: main_JNT/right_first_leg_1_JNT/right_first_leg_2_JNT/right_first_leg_3_JNT
+        weight: 1
+      - path: main_JNT/right_fourth_leg_1_JNT
+        weight: 1
+      - path: main_JNT/right_fourth_leg_1_JNT/right_fourth_leg_2_JNT
+        weight: 1
+      - path: main_JNT/right_sec_leg_1_JNT
+        weight: 1
+      - path: main_JNT/right_sec_leg_1_JNT/right_sec_leg_2_JNT
+        weight: 1
+      - path: main_JNT/right_sec_leg_1_JNT/right_sec_leg_2_JNT/right_sec_leg_3_JNT
+        weight: 1
+      - path: main_JNT/right_third_leg_1_JNT
+        weight: 1
+      - path: main_JNT/right_third_leg_1_JNT/right_third_leg_2_JNT
+        weight: 1
+      - path: main_JNT/right_third_leg_1_JNT/right_third_leg_2_JNT/right_third_leg_3_JNT
+        weight: 1
+      - path: main_JNT/tail_1_JNT
+        weight: 1
+      - path: main_JNT/tail_1_JNT/tail_2_JNT
+        weight: 1
+      - path: polyphemus_GEO
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 11
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

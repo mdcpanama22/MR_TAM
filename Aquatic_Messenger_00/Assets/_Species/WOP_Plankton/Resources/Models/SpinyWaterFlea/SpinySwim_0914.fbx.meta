@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: fd42768291900634bb07bf0b1f51533f
+timeCreated: 1444097449
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: L_firstleg_2_JNT
+    100002: L_firstleg_3_JNT
+    100004: L_firstleg_JNT
+    100006: L_fourthleg_2_JNT
+    100008: L_fourthleg_JNT
+    100010: L_secleg_2_JNT
+    100012: L_secleg_3_JNT
+    100014: L_secleg_JNT
+    100016: L_thirdleg_2_JNT
+    100018: L_thirdleg_3_JNT
+    100020: L_thirdleg_JNT
+    100022: Left_longarm_2_JNT
+    100024: Left_longarm_JNT
+    100026: main_head_JNT
+    100028: main_tail__JNT
+    100030: R_firstleg_2_JNT
+    100032: R_firstleg_3_JNT
+    100034: R_firstleg_JNT
+    100036: R_fourthleg_2_JNT
+    100038: R_fourthleg_JNT
+    100040: R_secleg_2_JNT
+    100042: R_secleg_3_JNT
+    100044: R_secleg_JNT
+    100046: R_thirdleg_2_JNT
+    100048: R_thirdleg_3_JNT
+    100050: R_thirdleg_JNT
+    100052: Right_longarm_2_JNT
+    100054: Right_longarm_JNT
+    100056: root_JNT
+    100058: second_tail_JNT
+    100060: spiny_GEO
+    100062: //RootNode
+    400000: L_firstleg_2_JNT
+    400002: L_firstleg_3_JNT
+    400004: L_firstleg_JNT
+    400006: L_fourthleg_2_JNT
+    400008: L_fourthleg_JNT
+    400010: L_secleg_2_JNT
+    400012: L_secleg_3_JNT
+    400014: L_secleg_JNT
+    400016: L_thirdleg_2_JNT
+    400018: L_thirdleg_3_JNT
+    400020: L_thirdleg_JNT
+    400022: Left_longarm_2_JNT
+    400024: Left_longarm_JNT
+    400026: main_head_JNT
+    400028: main_tail__JNT
+    400030: R_firstleg_2_JNT
+    400032: R_firstleg_3_JNT
+    400034: R_firstleg_JNT
+    400036: R_fourthleg_2_JNT
+    400038: R_fourthleg_JNT
+    400040: R_secleg_2_JNT
+    400042: R_secleg_3_JNT
+    400044: R_secleg_JNT
+    400046: R_thirdleg_2_JNT
+    400048: R_thirdleg_3_JNT
+    400050: R_thirdleg_JNT
+    400052: Right_longarm_2_JNT
+    400054: Right_longarm_JNT
+    400056: root_JNT
+    400058: second_tail_JNT
+    400060: spiny_GEO
+    400062: //RootNode
+    4300000: spiny_GEO
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: spiny_GEO
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

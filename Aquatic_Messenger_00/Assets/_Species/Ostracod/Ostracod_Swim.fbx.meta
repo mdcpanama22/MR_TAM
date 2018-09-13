@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 68de23390c4453c45984d36aa8c5aa4b
+timeCreated: 1490203969
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: CTRLs
+    100004: Eyes
+    100006: L_arm1
+    100008: L_arm1a
+    100010: L_arm1a_CTRL
+    100012: L_arm1b
+    100014: L_arm1b_CTRL
+    100016: L_arm1c
+    100018: L_arm1c_CTRL
+    100020: L_arm1d
+    100022: L_arm1d_CTRL
+    100024: L_arm1e
+    100026: L_arm2
+    100028: L_arm2a
+    100030: L_arm2a_CTRL
+    100032: L_arm2b
+    100034: L_arm2b_CTRL
+    100036: L_arm2c
+    100038: L_arm2c_CTRL
+    100040: L_arm2d
+    100042: L_arm3
+    100044: L_arm3a
+    100046: L_arm3a_CTRL
+    100048: L_arm3b
+    100050: L_arm3b_CTRL
+    100052: L_arm3c
+    100054: L_arm3c_CTRL
+    100056: L_arm3d
+    100058: L_arm4
+    100060: L_arm4a
+    100062: L_arm4a_CTRL
+    100064: L_arm4b
+    100066: L_arm4b_CTRL
+    100068: L_arm4c
+    100070: L_arm4c_CTRL
+    100072: L_arm4d
+    100074: L_arm5
+    100076: L_arm5a
+    100078: L_arm5a_CTRL
+    100080: L_arm5b
+    100082: L_arm5b_CTRL
+    100084: L_arm5c
+    100086: L_arm5c_CTRL
+    100088: L_arm5d
+    100090: L_arm6
+    100092: L_arm6a
+    100094: L_arm6a_CTRL
+    100096: L_arm6b
+    100098: L_arm6b_CTRL
+    100100: L_arm6c
+    100102: L_arm6c_CTRL
+    100104: L_arm6d
+    100106: Main
+    100108: //RootNode
+    100110: R_arm1
+    100112: R_arm1a
+    100114: R_arm1a_CTRL
+    100116: R_arm1b
+    100118: R_arm1b_CTRL
+    100120: R_arm1c
+    100122: R_arm1c_CTRL
+    100124: R_arm1d
+    100126: R_arm1d_CTRL
+    100128: R_arm1e
+    100130: R_arm2
+    100132: R_arm2a
+    100134: R_arm2a_CTRL
+    100136: R_arm2b
+    100138: R_arm2b_CTRL
+    100140: R_arm2c
+    100142: R_arm2c_CTRL
+    100144: R_arm2d
+    100146: R_arm3
+    100148: R_arm3a
+    100150: R_arm3a_CTRL
+    100152: R_arm3b
+    100154: R_arm3b_CTRL
+    100156: R_arm3c
+    100158: R_arm3c_CTRL
+    100160: R_arm3d
+    100162: R_arm4
+    100164: R_arm4a
+    100166: R_arm4a_CTRL
+    100168: R_arm4b
+    100170: R_arm4b_CTRL
+    100172: R_arm4c
+    100174: R_arm4c_CTRL
+    100176: R_arm4d
+    100178: R_arm5
+    100180: R_arm5a
+    100182: R_arm5a_CTRL
+    100184: R_arm5b
+    100186: R_arm5b_CTRL
+    100188: R_arm5c
+    100190: R_arm5c_CTRL
+    100192: R_arm5d
+    100194: R_arm6
+    100196: R_arm6a
+    100198: R_arm6a_CTRL
+    100200: R_arm6b
+    100202: R_arm6b_CTRL
+    100204: R_arm6c
+    100206: R_arm6c_CTRL
+    100208: R_arm6d
+    100210: Shell
+    400000: Body
+    400002: CTRLs
+    400004: Eyes
+    400006: L_arm1
+    400008: L_arm1a
+    400010: L_arm1a_CTRL
+    400012: L_arm1b
+    400014: L_arm1b_CTRL
+    400016: L_arm1c
+    400018: L_arm1c_CTRL
+    400020: L_arm1d
+    400022: L_arm1d_CTRL
+    400024: L_arm1e
+    400026: L_arm2
+    400028: L_arm2a
+    400030: L_arm2a_CTRL
+    400032: L_arm2b
+    400034: L_arm2b_CTRL
+    400036: L_arm2c
+    400038: L_arm2c_CTRL
+    400040: L_arm2d
+    400042: L_arm3
+    400044: L_arm3a
+    400046: L_arm3a_CTRL
+    400048: L_arm3b
+    400050: L_arm3b_CTRL
+    400052: L_arm3c
+    400054: L_arm3c_CTRL
+    400056: L_arm3d
+    400058: L_arm4
+    400060: L_arm4a
+    400062: L_arm4a_CTRL
+    400064: L_arm4b
+    400066: L_arm4b_CTRL
+    400068: L_arm4c
+    400070: L_arm4c_CTRL
+    400072: L_arm4d
+    400074: L_arm5
+    400076: L_arm5a
+    400078: L_arm5a_CTRL
+    400080: L_arm5b
+    400082: L_arm5b_CTRL
+    400084: L_arm5c
+    400086: L_arm5c_CTRL
+    400088: L_arm5d
+    400090: L_arm6
+    400092: L_arm6a
+    400094: L_arm6a_CTRL
+    400096: L_arm6b
+    400098: L_arm6b_CTRL
+    400100: L_arm6c
+    400102: L_arm6c_CTRL
+    400104: L_arm6d
+    400106: Main
+    400108: //RootNode
+    400110: R_arm1
+    400112: R_arm1a
+    400114: R_arm1a_CTRL
+    400116: R_arm1b
+    400118: R_arm1b_CTRL
+    400120: R_arm1c
+    400122: R_arm1c_CTRL
+    400124: R_arm1d
+    400126: R_arm1d_CTRL
+    400128: R_arm1e
+    400130: R_arm2
+    400132: R_arm2a
+    400134: R_arm2a_CTRL
+    400136: R_arm2b
+    400138: R_arm2b_CTRL
+    400140: R_arm2c
+    400142: R_arm2c_CTRL
+    400144: R_arm2d
+    400146: R_arm3
+    400148: R_arm3a
+    400150: R_arm3a_CTRL
+    400152: R_arm3b
+    400154: R_arm3b_CTRL
+    400156: R_arm3c
+    400158: R_arm3c_CTRL
+    400160: R_arm3d
+    400162: R_arm4
+    400164: R_arm4a
+    400166: R_arm4a_CTRL
+    400168: R_arm4b
+    400170: R_arm4b_CTRL
+    400172: R_arm4c
+    400174: R_arm4c_CTRL
+    400176: R_arm4d
+    400178: R_arm5
+    400180: R_arm5a
+    400182: R_arm5a_CTRL
+    400184: R_arm5b
+    400186: R_arm5b_CTRL
+    400188: R_arm5c
+    400190: R_arm5c_CTRL
+    400192: R_arm5d
+    400194: R_arm6
+    400196: R_arm6a
+    400198: R_arm6a_CTRL
+    400200: R_arm6b
+    400202: R_arm6b_CTRL
+    400204: R_arm6c
+    400206: R_arm6c_CTRL
+    400208: R_arm6d
+    400210: Shell
+    2300000: Body
+    2300002: Eyes
+    2300004: Shell
+    3300000: Body
+    3300002: Eyes
+    3300004: Shell
+    4300000: L_arm6
+    4300002: L_arm5
+    4300004: L_arm4
+    4300006: L_arm3
+    4300008: L_arm2
+    4300010: L_arm1
+    4300012: R_arm6
+    4300014: R_arm5
+    4300016: R_arm4
+    4300018: R_arm3
+    4300020: R_arm2
+    4300022: R_arm1
+    4300024: Eyes
+    4300026: Shell
+    4300028: Body
+    7400000: Ostracod_Swim
+    9500000: //RootNode
+    13700000: L_arm1
+    13700002: L_arm2
+    13700004: L_arm3
+    13700006: L_arm4
+    13700008: L_arm5
+    13700010: L_arm6
+    13700012: R_arm1
+    13700014: R_arm2
+    13700016: R_arm3
+    13700018: R_arm4
+    13700020: R_arm5
+    13700022: R_arm6
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Ostracod_Swim
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 112
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_arm1
+        weight: 1
+      - path: L_arm1a
+        weight: 1
+      - path: L_arm1a/L_arm1b
+        weight: 1
+      - path: L_arm1a/L_arm1b/L_arm1c
+        weight: 1
+      - path: L_arm1a/L_arm1b/L_arm1c/L_arm1d
+        weight: 1
+      - path: L_arm1a/L_arm1b/L_arm1c/L_arm1d/L_arm1e
+        weight: 1
+      - path: L_arm2
+        weight: 1
+      - path: L_arm2a
+        weight: 1
+      - path: L_arm2a/L_arm2b
+        weight: 1
+      - path: L_arm2a/L_arm2b/L_arm2c
+        weight: 1
+      - path: L_arm2a/L_arm2b/L_arm2c/L_arm2d
+        weight: 1
+      - path: L_arm3
+        weight: 1
+      - path: L_arm3a
+        weight: 1
+      - path: L_arm3a/L_arm3b
+        weight: 1
+      - path: L_arm3a/L_arm3b/L_arm3c
+        weight: 1
+      - path: L_arm3a/L_arm3b/L_arm3c/L_arm3d
+        weight: 1
+      - path: L_arm4
+        weight: 1
+      - path: L_arm4a
+        weight: 1
+      - path: L_arm4a/L_arm4b
+        weight: 1
+      - path: L_arm4a/L_arm4b/L_arm4c
+        weight: 1
+      - path: L_arm4a/L_arm4b/L_arm4c/L_arm4d
+        weight: 1
+      - path: L_arm5
+        weight: 1
+      - path: L_arm5a
+        weight: 1
+      - path: L_arm5a/L_arm5b
+        weight: 1
+      - path: L_arm5a/L_arm5b/L_arm5c
+        weight: 1
+      - path: L_arm5a/L_arm5b/L_arm5c/L_arm5d
+        weight: 1
+      - path: L_arm6
+        weight: 1
+      - path: L_arm6a
+        weight: 1
+      - path: L_arm6a/L_arm6b
+        weight: 1
+      - path: L_arm6a/L_arm6b/L_arm6c
+        weight: 1
+      - path: L_arm6a/L_arm6b/L_arm6c/L_arm6d
+        weight: 1
+      - path: Main
+        weight: 1
+      - path: Main/Body
+        weight: 1
+      - path: Main/CTRLs
+        weight: 1
+      - path: Main/CTRLs/L_arm1a_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm1a_CTRL/L_arm1b_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm1a_CTRL/L_arm1b_CTRL/L_arm1c_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm1a_CTRL/L_arm1b_CTRL/L_arm1c_CTRL/L_arm1d_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm2a_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm2a_CTRL/L_arm2b_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm2a_CTRL/L_arm2b_CTRL/L_arm2c_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm3a_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm3a_CTRL/L_arm3b_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm3a_CTRL/L_arm3b_CTRL/L_arm3c_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm4a_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm4a_CTRL/L_arm4b_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm4a_CTRL/L_arm4b_CTRL/L_arm4c_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm5a_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm5a_CTRL/L_arm5b_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm5a_CTRL/L_arm5b_CTRL/L_arm5c_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm6a_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm6a_CTRL/L_arm6b_CTRL
+        weight: 1
+      - path: Main/CTRLs/L_arm6a_CTRL/L_arm6b_CTRL/L_arm6c_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm1a_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm1a_CTRL/R_arm1b_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm1a_CTRL/R_arm1b_CTRL/R_arm1c_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm1a_CTRL/R_arm1b_CTRL/R_arm1c_CTRL/R_arm1d_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm2a_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm2a_CTRL/R_arm2b_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm2a_CTRL/R_arm2b_CTRL/R_arm2c_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm3a_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm3a_CTRL/R_arm3b_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm3a_CTRL/R_arm3b_CTRL/R_arm3c_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm4a_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm4a_CTRL/R_arm4b_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm4a_CTRL/R_arm4b_CTRL/R_arm4c_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm5a_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm5a_CTRL/R_arm5b_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm5a_CTRL/R_arm5b_CTRL/R_arm5c_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm6a_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm6a_CTRL/R_arm6b_CTRL
+        weight: 1
+      - path: Main/CTRLs/R_arm6a_CTRL/R_arm6b_CTRL/R_arm6c_CTRL
+        weight: 1
+      - path: Main/Eyes
+        weight: 1
+      - path: Main/Shell
+        weight: 1
+      - path: R_arm1
+        weight: 1
+      - path: R_arm1a
+        weight: 1
+      - path: R_arm1a/R_arm1b
+        weight: 1
+      - path: R_arm1a/R_arm1b/R_arm1c
+        weight: 1
+      - path: R_arm1a/R_arm1b/R_arm1c/R_arm1d
+        weight: 1
+      - path: R_arm1a/R_arm1b/R_arm1c/R_arm1d/R_arm1e
+        weight: 1
+      - path: R_arm2
+        weight: 1
+      - path: R_arm2a
+        weight: 1
+      - path: R_arm2a/R_arm2b
+        weight: 1
+      - path: R_arm2a/R_arm2b/R_arm2c
+        weight: 1
+      - path: R_arm2a/R_arm2b/R_arm2c/R_arm2d
+        weight: 1
+      - path: R_arm3
+        weight: 1
+      - path: R_arm3a
+        weight: 1
+      - path: R_arm3a/R_arm3b
+        weight: 1
+      - path: R_arm3a/R_arm3b/R_arm3c
+        weight: 1
+      - path: R_arm3a/R_arm3b/R_arm3c/R_arm3d
+        weight: 1
+      - path: R_arm4
+        weight: 1
+      - path: R_arm4a
+        weight: 1
+      - path: R_arm4a/R_arm4b
+        weight: 1
+      - path: R_arm4a/R_arm4b/R_arm4c
+        weight: 1
+      - path: R_arm4a/R_arm4b/R_arm4c/R_arm4d
+        weight: 1
+      - path: R_arm5
+        weight: 1
+      - path: R_arm5a
+        weight: 1
+      - path: R_arm5a/R_arm5b
+        weight: 1
+      - path: R_arm5a/R_arm5b/R_arm5c
+        weight: 1
+      - path: R_arm5a/R_arm5b/R_arm5c/R_arm5d
+        weight: 1
+      - path: R_arm6
+        weight: 1
+      - path: R_arm6a
+        weight: 1
+      - path: R_arm6a/R_arm6b
+        weight: 1
+      - path: R_arm6a/R_arm6b/R_arm6c
+        weight: 1
+      - path: R_arm6a/R_arm6b/R_arm6c/R_arm6d
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

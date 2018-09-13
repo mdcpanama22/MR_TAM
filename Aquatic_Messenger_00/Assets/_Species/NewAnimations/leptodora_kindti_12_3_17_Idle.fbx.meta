@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: 37acd76b32d79354bba72b500cc8121b
+timeCreated: 1512644729
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: eye
+    100002: first_tail_JNT
+    100004: GEOMETRY
+    100006: head_JNT
+    100008: left_arm_1_JNT
+    100010: left_arm_2_JNT
+    100012: left_first_leg_1_JNT
+    100014: left_first_leg_1_JNT1
+    100016: left_first_leg_3_JNT
+    100018: left_first_leg_3_JNT1
+    100020: left_first_leg__2_JNT
+    100022: left_first_leg__2_JNT1
+    100024: left_fourth_leg_1_JNT
+    100026: left_fourth_leg_1_JNT1
+    100028: left_fourth_leg_2_JNT
+    100030: left_fourth_leg_2_JNT1
+    100032: left_fourth_leg_3_JNT
+    100034: left_fourth_leg_3_JNT1
+    100036: left_sec_leg_1_JNT
+    100038: left_sec_leg_1_JNT1
+    100040: left_sec_leg_2_JNT
+    100042: left_sec_leg_2_JNT1
+    100044: left_sec_leg_3_JNT
+    100046: left_sec_leg_3_JNT1
+    100048: left_third_leg_1_JNT
+    100050: left_third_leg_1_JNT1
+    100052: left_third_leg_2_JNT
+    100054: left_third_leg_2_JNT1
+    100056: left_third_leg_3_JNT
+    100058: left_third_leg_3_JNT1
+    100060: leptodora_GEO
+    100062: //RootNode
+    100064: main_JNT
+    100066: organs_1_JNT
+    100068: organs_2_JNT
+    100070: organs_3_JNT
+    100072: outer_organs_GEO1
+    100074: right_arm_1_JNT
+    100076: right_arm_2_JNT
+    100078: sec_tail_JNT
+    400000: eye
+    400002: first_tail_JNT
+    400004: GEOMETRY
+    400006: head_JNT
+    400008: left_arm_1_JNT
+    400010: left_arm_2_JNT
+    400012: left_first_leg_1_JNT
+    400014: left_first_leg_1_JNT1
+    400016: left_first_leg_3_JNT
+    400018: left_first_leg_3_JNT1
+    400020: left_first_leg__2_JNT
+    400022: left_first_leg__2_JNT1
+    400024: left_fourth_leg_1_JNT
+    400026: left_fourth_leg_1_JNT1
+    400028: left_fourth_leg_2_JNT
+    400030: left_fourth_leg_2_JNT1
+    400032: left_fourth_leg_3_JNT
+    400034: left_fourth_leg_3_JNT1
+    400036: left_sec_leg_1_JNT
+    400038: left_sec_leg_1_JNT1
+    400040: left_sec_leg_2_JNT
+    400042: left_sec_leg_2_JNT1
+    400044: left_sec_leg_3_JNT
+    400046: left_sec_leg_3_JNT1
+    400048: left_third_leg_1_JNT
+    400050: left_third_leg_1_JNT1
+    400052: left_third_leg_2_JNT
+    400054: left_third_leg_2_JNT1
+    400056: left_third_leg_3_JNT
+    400058: left_third_leg_3_JNT1
+    400060: leptodora_GEO
+    400062: //RootNode
+    400064: main_JNT
+    400066: organs_1_JNT
+    400068: organs_2_JNT
+    400070: organs_3_JNT
+    400072: outer_organs_GEO1
+    400074: right_arm_1_JNT
+    400076: right_arm_2_JNT
+    400078: sec_tail_JNT
+    2300000: eye
+    3300000: eye
+    4300000: eye
+    4300002: leptodora_GEO
+    4300004: outer_organs_GEO1
+    7400000: Leptodora_Idle
+    9500000: //RootNode
+    13700000: leptodora_GEO
+    13700002: outer_organs_GEO1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Leptodora_Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEOMETRY
+        weight: 1
+      - path: GEOMETRY/leptodora_GEO
+        weight: 1
+      - path: GEOMETRY/leptodora_GEO/outer_organs_GEO1
+        weight: 1
+      - path: main_JNT
+        weight: 1
+      - path: main_JNT/eye
+        weight: 1
+      - path: main_JNT/first_tail_JNT
+        weight: 1
+      - path: main_JNT/first_tail_JNT/sec_tail_JNT
+        weight: 1
+      - path: main_JNT/head_JNT
+        weight: 1
+      - path: main_JNT/head_JNT/left_arm_1_JNT
+        weight: 1
+      - path: main_JNT/head_JNT/left_arm_1_JNT/left_arm_2_JNT
+        weight: 1
+      - path: main_JNT/head_JNT/right_arm_1_JNT
+        weight: 1
+      - path: main_JNT/head_JNT/right_arm_1_JNT/right_arm_2_JNT
+        weight: 1
+      - path: main_JNT/left_first_leg_1_JNT
+        weight: 1
+      - path: main_JNT/left_first_leg_1_JNT/left_first_leg__2_JNT
+        weight: 1
+      - path: main_JNT/left_first_leg_1_JNT/left_first_leg__2_JNT/left_first_leg_3_JNT
+        weight: 1
+      - path: main_JNT/left_first_leg_1_JNT1
+        weight: 1
+      - path: main_JNT/left_first_leg_1_JNT1/left_first_leg__2_JNT1
+        weight: 1
+      - path: main_JNT/left_first_leg_1_JNT1/left_first_leg__2_JNT1/left_first_leg_3_JNT1
+        weight: 1
+      - path: main_JNT/left_fourth_leg_1_JNT
+        weight: 1
+      - path: main_JNT/left_fourth_leg_1_JNT/left_fourth_leg_2_JNT
+        weight: 1
+      - path: main_JNT/left_fourth_leg_1_JNT/left_fourth_leg_2_JNT/left_fourth_leg_3_JNT
+        weight: 1
+      - path: main_JNT/left_fourth_leg_1_JNT1
+        weight: 1
+      - path: main_JNT/left_fourth_leg_1_JNT1/left_fourth_leg_2_JNT1
+        weight: 1
+      - path: main_JNT/left_fourth_leg_1_JNT1/left_fourth_leg_2_JNT1/left_fourth_leg_3_JNT1
+        weight: 1
+      - path: main_JNT/left_sec_leg_1_JNT
+        weight: 1
+      - path: main_JNT/left_sec_leg_1_JNT/left_sec_leg_2_JNT
+        weight: 1
+      - path: main_JNT/left_sec_leg_1_JNT/left_sec_leg_2_JNT/left_sec_leg_3_JNT
+        weight: 1
+      - path: main_JNT/left_sec_leg_1_JNT1
+        weight: 1
+      - path: main_JNT/left_sec_leg_1_JNT1/left_sec_leg_2_JNT1
+        weight: 1
+      - path: main_JNT/left_sec_leg_1_JNT1/left_sec_leg_2_JNT1/left_sec_leg_3_JNT1
+        weight: 1
+      - path: main_JNT/left_third_leg_1_JNT
+        weight: 1
+      - path: main_JNT/left_third_leg_1_JNT/left_third_leg_2_JNT
+        weight: 1
+      - path: main_JNT/left_third_leg_1_JNT/left_third_leg_2_JNT/left_third_leg_3_JNT
+        weight: 1
+      - path: main_JNT/left_third_leg_1_JNT1
+        weight: 1
+      - path: main_JNT/left_third_leg_1_JNT1/left_third_leg_2_JNT1
+        weight: 1
+      - path: main_JNT/left_third_leg_1_JNT1/left_third_leg_2_JNT1/left_third_leg_3_JNT1
+        weight: 1
+      - path: main_JNT/organs_1_JNT
+        weight: 1
+      - path: main_JNT/organs_1_JNT/organs_2_JNT
+        weight: 1
+      - path: main_JNT/organs_1_JNT/organs_3_JNT
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

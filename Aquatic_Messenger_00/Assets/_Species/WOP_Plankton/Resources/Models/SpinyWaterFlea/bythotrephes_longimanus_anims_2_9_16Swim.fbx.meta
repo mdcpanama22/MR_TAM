@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: 0a3067568aabd8042ae0c0f701b55c0f
+timeCreated: 1457642646
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ambientLight1
+    100002: ambientLight2
+    100004: //RootNode
+    100006: Cameras_GRP
+    100008: directionalLight1
+    100010: directionalLight2
+    100012: directionalLight3
+    100014: egg_1
+    100016: egg_2
+    100018: egg_3
+    100020: egg_4
+    100022: egg_5
+    100024: egg_6
+    100026: egg_7
+    100028: egg_8
+    100030: group1
+    100032: group2
+    100034: group3
+    100036: group4
+    100038: intestine_bottom_JNT
+    100040: intestine_lower_JNT
+    100042: intestine_main_CNTRL
+    100044: intestine_main_JNT
+    100046: intestine_middle_CNTRL
+    100048: intestine_top_JNT
+    100050: intestine_upper_JNT
+    100052: L_firstleg_1
+    100054: L_firstleg_2_JNT
+    100056: L_firstleg_3_JNT
+    100058: L_firstleg_CNTRL
+    100060: L_firstleg_JNT
+    100062: L_fourthleg_1
+    100064: L_fourthleg_2_JNT
+    100066: L_fourthleg_CNTRL
+    100068: L_fourthleg_JNT
+    100070: L_secleg_1
+    100072: L_secleg_2
+    100074: L_secleg_2_JNT
+    100076: L_secleg_3_JNT
+    100078: L_secleg_CNTRL
+    100080: L_secleg_JNT
+    100082: L_thirdleg_1
+    100084: L_thirdleg_2
+    100086: L_thirdleg_2_JNT
+    100088: L_thirdleg_3_JNT
+    100090: L_thirdleg_CNTRL
+    100092: L_thirdleg_JNT
+    100094: Left_longarm_2_JNT
+    100096: Left_longarm_CNTRL
+    100098: Left_longarm_JNT
+    100100: Lighting_GRP
+    100102: lower_intestine_CNTRL
+    100104: Lower_Tail_CNTRL
+    100106: Main_CNTRL
+    100108: main_head_JNT
+    100110: main_tail__JNT
+    100112: pSphere1
+    100114: pSphere2
+    100116: R_firstleg_1
+    100118: R_firstleg_2_JNT
+    100120: R_firstleg_3_JNT
+    100122: R_firstleg_CNTRL
+    100124: R_firstleg_JNT
+    100126: R_fourthleg_1
+    100128: R_fourthleg_2_JNT
+    100130: R_fourthleg_CNTRL
+    100132: R_fourthleg_JNT
+    100134: R_secleg_1
+    100136: R_secleg_2
+    100138: R_secleg_2_JNT
+    100140: R_secleg_3_JNT
+    100142: R_secleg_CNTRL
+    100144: R_secleg_JNT
+    100146: R_thirdleg_1
+    100148: R_thirdleg_2
+    100150: R_thirdleg_2_JNT
+    100152: R_thirdleg_3_JNT
+    100154: R_thirdleg_CNTRL
+    100156: R_thirdleg_JNT
+    100158: Right_longarm_2_JNT
+    100160: Right_longarm_CNTRL
+    100162: Right_longarm_JNT
+    100164: Rigs_GRP
+    100166: root_JNT
+    100168: second_tail_JNT
+    100170: spiny_eggs
+    100172: spiny_eye_GEO
+    100174: spiny_GEO
+    100176: spiny_intestine
+    100178: spiny_roundpart
+    100180: Tail_CNTRL
+    100182: transform1
+    100184: upper_intestine_CNTRL
+    400000: ambientLight1
+    400002: ambientLight2
+    400004: //RootNode
+    400006: Cameras_GRP
+    400008: directionalLight1
+    400010: directionalLight2
+    400012: directionalLight3
+    400014: egg_1
+    400016: egg_2
+    400018: egg_3
+    400020: egg_4
+    400022: egg_5
+    400024: egg_6
+    400026: egg_7
+    400028: egg_8
+    400030: group1
+    400032: group2
+    400034: group3
+    400036: group4
+    400038: intestine_bottom_JNT
+    400040: intestine_lower_JNT
+    400042: intestine_main_CNTRL
+    400044: intestine_main_JNT
+    400046: intestine_middle_CNTRL
+    400048: intestine_top_JNT
+    400050: intestine_upper_JNT
+    400052: L_firstleg_1
+    400054: L_firstleg_2_JNT
+    400056: L_firstleg_3_JNT
+    400058: L_firstleg_CNTRL
+    400060: L_firstleg_JNT
+    400062: L_fourthleg_1
+    400064: L_fourthleg_2_JNT
+    400066: L_fourthleg_CNTRL
+    400068: L_fourthleg_JNT
+    400070: L_secleg_1
+    400072: L_secleg_2
+    400074: L_secleg_2_JNT
+    400076: L_secleg_3_JNT
+    400078: L_secleg_CNTRL
+    400080: L_secleg_JNT
+    400082: L_thirdleg_1
+    400084: L_thirdleg_2
+    400086: L_thirdleg_2_JNT
+    400088: L_thirdleg_3_JNT
+    400090: L_thirdleg_CNTRL
+    400092: L_thirdleg_JNT
+    400094: Left_longarm_2_JNT
+    400096: Left_longarm_CNTRL
+    400098: Left_longarm_JNT
+    400100: Lighting_GRP
+    400102: lower_intestine_CNTRL
+    400104: Lower_Tail_CNTRL
+    400106: Main_CNTRL
+    400108: main_head_JNT
+    400110: main_tail__JNT
+    400112: pSphere1
+    400114: pSphere2
+    400116: R_firstleg_1
+    400118: R_firstleg_2_JNT
+    400120: R_firstleg_3_JNT
+    400122: R_firstleg_CNTRL
+    400124: R_firstleg_JNT
+    400126: R_fourthleg_1
+    400128: R_fourthleg_2_JNT
+    400130: R_fourthleg_CNTRL
+    400132: R_fourthleg_JNT
+    400134: R_secleg_1
+    400136: R_secleg_2
+    400138: R_secleg_2_JNT
+    400140: R_secleg_3_JNT
+    400142: R_secleg_CNTRL
+    400144: R_secleg_JNT
+    400146: R_thirdleg_1
+    400148: R_thirdleg_2
+    400150: R_thirdleg_2_JNT
+    400152: R_thirdleg_3_JNT
+    400154: R_thirdleg_CNTRL
+    400156: R_thirdleg_JNT
+    400158: Right_longarm_2_JNT
+    400160: Right_longarm_CNTRL
+    400162: Right_longarm_JNT
+    400164: Rigs_GRP
+    400166: root_JNT
+    400168: second_tail_JNT
+    400170: spiny_eggs
+    400172: spiny_eye_GEO
+    400174: spiny_GEO
+    400176: spiny_intestine
+    400178: spiny_roundpart
+    400180: Tail_CNTRL
+    400182: transform1
+    400184: upper_intestine_CNTRL
+    2300000: egg_1
+    2300002: egg_2
+    2300004: egg_3
+    2300006: egg_4
+    2300008: egg_5
+    2300010: egg_6
+    2300012: egg_7
+    2300014: egg_8
+    2300016: pSphere1
+    2300018: pSphere2
+    2300020: spiny_eye_GEO
+    2300022: spiny_roundpart
+    3300000: egg_1
+    3300002: egg_2
+    3300004: egg_3
+    3300006: egg_4
+    3300008: egg_5
+    3300010: egg_6
+    3300012: egg_7
+    3300014: egg_8
+    3300016: pSphere1
+    3300018: pSphere2
+    3300020: spiny_eye_GEO
+    3300022: spiny_roundpart
+    4300000: pSphere1
+    4300002: spiny_eye_GEO
+    4300004: egg_1
+    4300006: egg_2
+    4300008: egg_3
+    4300010: egg_4
+    4300012: egg_5
+    4300014: egg_6
+    4300016: egg_7
+    4300018: egg_8
+    4300020: spiny_roundpart
+    4300022: spiny_GEO
+    4300024: spiny_intestine
+    4300026: pSphere2
+    7400000: Bythotrephes_Swim
+    9500000: //RootNode
+    13700000: spiny_GEO
+    13700002: spiny_intestine
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bythotrephes_Swim
+      takeName: Swim
+      firstFrame: 1
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cameras_GRP
+        weight: 1
+      - path: Cameras_GRP/group1
+        weight: 1
+      - path: Cameras_GRP/group2
+        weight: 1
+      - path: Cameras_GRP/group3
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: Lighting_GRP
+        weight: 1
+      - path: Lighting_GRP/ambientLight1
+        weight: 1
+      - path: Lighting_GRP/ambientLight2
+        weight: 1
+      - path: Lighting_GRP/directionalLight1
+        weight: 1
+      - path: Lighting_GRP/directionalLight2
+        weight: 1
+      - path: Lighting_GRP/directionalLight3
+        weight: 1
+      - path: Lighting_GRP/pSphere1
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: Rigs_GRP
+        weight: 1
+      - path: Rigs_GRP/intestine_main_CNTRL
+        weight: 1
+      - path: Rigs_GRP/intestine_main_CNTRL/intestine_middle_CNTRL
+        weight: 1
+      - path: Rigs_GRP/intestine_main_CNTRL/lower_intestine_CNTRL
+        weight: 1
+      - path: Rigs_GRP/intestine_main_CNTRL/upper_intestine_CNTRL
+        weight: 1
+      - path: Rigs_GRP/intestine_main_JNT
+        weight: 1
+      - path: Rigs_GRP/intestine_main_JNT/intestine_lower_JNT
+        weight: 1
+      - path: Rigs_GRP/intestine_main_JNT/intestine_lower_JNT/intestine_bottom_JNT
+        weight: 1
+      - path: Rigs_GRP/intestine_main_JNT/intestine_upper_JNT
+        weight: 1
+      - path: Rigs_GRP/intestine_main_JNT/intestine_upper_JNT/intestine_top_JNT
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/L_firstleg_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/L_firstleg_CNTRL/L_firstleg_1
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/L_fourthleg_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/L_fourthleg_CNTRL/L_fourthleg_1
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/L_secleg_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/L_secleg_CNTRL/L_secleg_1
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/L_secleg_CNTRL/L_secleg_1/L_secleg_2
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/L_thirdleg_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/L_thirdleg_CNTRL/L_thirdleg_1
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/L_thirdleg_CNTRL/L_thirdleg_1/L_thirdleg_2
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/Left_longarm_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/R_firstleg_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/R_firstleg_CNTRL/R_firstleg_1
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/R_fourthleg_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/R_fourthleg_CNTRL/R_fourthleg_1
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/R_secleg_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/R_secleg_CNTRL/R_secleg_1
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/R_secleg_CNTRL/R_secleg_1/R_secleg_2
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/R_thirdleg_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/R_thirdleg_CNTRL/R_thirdleg_1
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/R_thirdleg_CNTRL/R_thirdleg_1/R_thirdleg_2
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/Right_longarm_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eggs
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eggs/egg_1
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eggs/egg_2
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eggs/egg_3
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eggs/egg_4
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eggs/egg_5
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eggs/egg_6
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eggs/egg_7
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eggs/egg_8
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eggs/transform1
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_eye_GEO
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/spiny_roundpart
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/Tail_CNTRL
+        weight: 1
+      - path: Rigs_GRP/Main_CNTRL/Tail_CNTRL/Lower_Tail_CNTRL
+        weight: 1
+      - path: Rigs_GRP/root_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_firstleg_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_firstleg_JNT/L_firstleg_2_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_firstleg_JNT/L_firstleg_2_JNT/L_firstleg_3_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_fourthleg_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_fourthleg_JNT/L_fourthleg_2_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_secleg_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_secleg_JNT/L_secleg_2_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_secleg_JNT/L_secleg_2_JNT/L_secleg_3_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_thirdleg_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_thirdleg_JNT/L_thirdleg_2_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/L_thirdleg_JNT/L_thirdleg_2_JNT/L_thirdleg_3_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/main_head_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/main_head_JNT/Left_longarm_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/main_head_JNT/Left_longarm_JNT/Left_longarm_2_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/main_head_JNT/Right_longarm_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/main_head_JNT/Right_longarm_JNT/Right_longarm_2_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/main_tail__JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/main_tail__JNT/second_tail_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_firstleg_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_firstleg_JNT/R_firstleg_2_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_firstleg_JNT/R_firstleg_2_JNT/R_firstleg_3_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_fourthleg_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_fourthleg_JNT/R_fourthleg_2_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_secleg_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_secleg_JNT/R_secleg_2_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_secleg_JNT/R_secleg_2_JNT/R_secleg_3_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_thirdleg_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_thirdleg_JNT/R_thirdleg_2_JNT
+        weight: 1
+      - path: Rigs_GRP/root_JNT/R_thirdleg_JNT/R_thirdleg_2_JNT/R_thirdleg_3_JNT
+        weight: 1
+      - path: Rigs_GRP/spiny_GEO
+        weight: 1
+      - path: Rigs_GRP/spiny_GEO/spiny_intestine
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

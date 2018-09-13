@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1173140896651160}
+  m_IsPrefabParent: 1
+--- !u!1 &1173140896651160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4077838818549278}
+  - component: {fileID: 114911647697336858}
+  m_Layer: 0
+  m_Name: DeforestedSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4077838818549278
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1173140896651160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.133846, y: 10.231473, z: 7.529585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114911647697336858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1173140896651160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67dcfbac0b7faee46ad19d99b4d5b678, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawners:
+  - template: {fileID: 4067276896301530, guid: 0573adc97b72b6942bd980da60ac4250, type: 2}
+    max: 20
+    range: 0.015
+    minScale: 0.5
+    organismScale: 0.0001
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 493964, guid: 0ccc8fdb36a1b2c42a37f9863793d71c, type: 2}
+    max: 0
+    range: 0.5
+    minScale: 2
+    organismScale: 0.015
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 499066, guid: 89603307dc233154f9ce84cc3ee9ec4d, type: 2}
+    max: 5
+    range: 0.5
+    minScale: 2
+    organismScale: 0.005
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 407762, guid: 0671b50b4c0fb5948ac1b7279f0ffef6, type: 2}
+    max: 5
+    range: 0.5
+    minScale: 0.5
+    organismScale: 0.02
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 474876, guid: fb7905c634d8e374aa88af2b823311de, type: 2}
+    max: 20
+    range: 0.015
+    minScale: 0.5
+    organismScale: 0.00005
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 4339376987130160, guid: 8c7372a8a81d2104896dd00ee0451446, type: 2}
+    max: 0
+    range: 0.015
+    minScale: 0.5
+    organismScale: 0.000072
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 498300, guid: e57d4bcc57800c8428767cff08c30303, type: 2}
+    max: 20
+    range: 0.015
+    minScale: 0.5
+    organismScale: 0.000035
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 478592, guid: 0e671da40f1f8564dab90fa8ca55c32d, type: 2}
+    max: 20
+    range: 0.015
+    minScale: 0.5
+    organismScale: 0.000035
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 4562045148684010, guid: 4cd03def593198f4d83f0fea72c0e9bd, type: 2}
+    max: 20
+    range: 0.2
+    minScale: 0.8
+    organismScale: 0.0015
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 455456, guid: 4c5f5e1c7df2e314e8d91d38601c64c1, type: 2}
+    max: 2
+    range: 0.5
+    minScale: 2
+    organismScale: 0.0013
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 411424, guid: 5659286aa0ccc4bf7a2f230e3598e14d, type: 2}
+    max: 5
+    range: 15
+    minScale: 50
+    organismScale: 0.15
+    isFish: 1
+    onGround: 0
+  - template: {fileID: 445716, guid: f3aecf94c5ea4804989de21deaf2fa75, type: 2}
+    max: 5
+    range: 15
+    minScale: 50
+    organismScale: 0.45
+    isFish: 1
+    onGround: 0
+  - template: {fileID: 443048, guid: c66dbfa10822cde41b918c755030e9f2, type: 2}
+    max: 5
+    range: 15
+    minScale: 50
+    organismScale: 0.2
+    isFish: 1
+    onGround: 0
+  - template: {fileID: 4505444139926320, guid: 7c23fdf9e3de7dd42afa9a6b93335332, type: 2}
+    max: 30
+    range: 0.015
+    minScale: 0.5
+    organismScale: 0.000155
+    isFish: 0
+    onGround: 0
+  - template: {fileID: 4764371518272398, guid: ee84a92e23e3cd44097e2fa6cee3a282, type: 2}
+    max: 60
+    range: 0.015
+    minScale: 0.5
+    organismScale: 0.000029
+    isFish: 1
+    onGround: 0
+  - template: {fileID: 4361767268780658, guid: a38228104735d2d4d8d74f1bbf2e2beb, type: 2}
+    max: 10
+    range: 0.015
+    minScale: 0.5
+    organismScale: 0.00008
+    isFish: 1
+    onGround: 1
+  - template: {fileID: 4361767268780658, guid: 4444b54bc8009894d92d0fbc554a7909, type: 2}
+    max: 10
+    range: 0.015
+    minScale: 0.5
+    organismScale: 0.00008
+    isFish: 0
+    onGround: 0
+  followsPlayer: 1
+  waterLevel: {fileID: 0}
+  scaleMult: 4
+  movementVector: {x: 0, y: 0, z: 0}

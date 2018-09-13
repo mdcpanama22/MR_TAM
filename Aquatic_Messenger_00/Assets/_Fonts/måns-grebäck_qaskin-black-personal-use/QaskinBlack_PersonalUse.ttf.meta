@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ec736415a74fa27448ba3fd761d865ef
+timeCreated: 1491414398
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Qaskin Black Personal Use
+  fontNames:
+  - Qaskin Black Personal Use
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2a26c8a1f55edf444951de9d9ecaede4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

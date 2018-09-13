@@ -1,0 +1,119 @@
+fileFormatVersion: 2
+guid: bfbc1dc6e94aa4917bfb34f6ccfb9641
+timeCreated: 1450761411
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back_left_fin_1_JNT
+    100002: back_left_fin_2_JNT
+    100004: back_right_fin_2_JNT
+    100006: back_right_fin_2_JNT 1
+    100008: eighth_JNT
+    100010: fifth_JNT
+    100012: first_JNT
+    100014: fourth_JNT
+    100016: front_left_fin_1_JNT
+    100018: front_left_fin_2_JNT
+    100020: front_right_fin_1_JNT
+    100022: front_right_fin_2_JNT
+    100024: left_eye_GEO
+    100026: ninth_JNT
+    100028: //RootNode
+    100030: rainbow_smelt_GEO
+    100032: right_eye_GEO
+    100034: second_JNT
+    100036: sixth_JNT
+    100038: third_JNT
+    400000: back_left_fin_1_JNT
+    400002: back_left_fin_2_JNT
+    400004: back_right_fin_2_JNT
+    400006: back_right_fin_2_JNT 1
+    400008: eighth_JNT
+    400010: fifth_JNT
+    400012: first_JNT
+    400014: fourth_JNT
+    400016: front_left_fin_1_JNT
+    400018: front_left_fin_2_JNT
+    400020: front_right_fin_1_JNT
+    400022: front_right_fin_2_JNT
+    400024: left_eye_GEO
+    400026: ninth_JNT
+    400028: //RootNode
+    400030: rainbow_smelt_GEO
+    400032: right_eye_GEO
+    400034: second_JNT
+    400036: sixth_JNT
+    400038: third_JNT
+    4300000: rainbow_smelt_GEO
+    4300002: left_eye_GEO
+    4300004: right_eye_GEO
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: left_eye_GEO
+    13700002: rainbow_smelt_GEO
+    13700004: right_eye_GEO
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

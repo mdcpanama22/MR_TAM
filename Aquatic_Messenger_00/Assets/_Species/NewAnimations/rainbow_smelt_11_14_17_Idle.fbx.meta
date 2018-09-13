@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 5538054836c536e45ab43d734bc7d330
+timeCreated: 1512644730
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back_left_fin_1_JNT
+    100002: back_left_fin_2_JNT
+    100004: back_right_fin_2_JNT
+    100006: back_right_fin_2_JNT 1
+    100008: eighth_JNT
+    100010: fifth_JNT
+    100012: first_JNT
+    100014: fourth_JNT
+    100016: front_left_fin_1_JNT
+    100018: front_left_fin_2_JNT
+    100020: front_right_fin_1_JNT
+    100022: front_right_fin_2_JNT
+    100024: jaw1
+    100026: jaw2
+    100028: left_eye_GEO
+    100030: ninth_JNT
+    100032: //RootNode
+    100034: rainbow_smelt_GEO
+    100036: right_eye_GEO
+    100038: second_JNT
+    100040: sixth_JNT
+    100042: third_JNT
+    400000: back_left_fin_1_JNT
+    400002: back_left_fin_2_JNT
+    400004: back_right_fin_2_JNT
+    400006: back_right_fin_2_JNT 1
+    400008: eighth_JNT
+    400010: fifth_JNT
+    400012: first_JNT
+    400014: fourth_JNT
+    400016: front_left_fin_1_JNT
+    400018: front_left_fin_2_JNT
+    400020: front_right_fin_1_JNT
+    400022: front_right_fin_2_JNT
+    400024: jaw1
+    400026: jaw2
+    400028: left_eye_GEO
+    400030: ninth_JNT
+    400032: //RootNode
+    400034: rainbow_smelt_GEO
+    400036: right_eye_GEO
+    400038: second_JNT
+    400040: sixth_JNT
+    400042: third_JNT
+    4300000: rainbow_smelt_GEO
+    4300002: left_eye_GEO
+    4300004: right_eye_GEO
+    7400000: Smelt_Idle
+    9500000: //RootNode
+    13700000: left_eye_GEO
+    13700002: rainbow_smelt_GEO
+    13700004: right_eye_GEO
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Smelt_Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: first_JNT
+        weight: 1
+      - path: first_JNT/second_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/front_left_fin_1_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/front_left_fin_1_JNT/front_left_fin_2_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/front_right_fin_1_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/front_right_fin_1_JNT/front_right_fin_2_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/jaw1
+        weight: 1
+      - path: first_JNT/second_JNT/jaw1/jaw2
+        weight: 1
+      - path: first_JNT/second_JNT/third_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/third_JNT/fourth_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/third_JNT/fourth_JNT/back_left_fin_1_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/third_JNT/fourth_JNT/back_left_fin_1_JNT/back_left_fin_2_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/third_JNT/fourth_JNT/back_right_fin_2_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/third_JNT/fourth_JNT/back_right_fin_2_JNT/back_right_fin_2_JNT
+          1
+        weight: 1
+      - path: first_JNT/second_JNT/third_JNT/fourth_JNT/fifth_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/third_JNT/fourth_JNT/fifth_JNT/sixth_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/third_JNT/fourth_JNT/fifth_JNT/sixth_JNT/eighth_JNT
+        weight: 1
+      - path: first_JNT/second_JNT/third_JNT/fourth_JNT/fifth_JNT/sixth_JNT/eighth_JNT/ninth_JNT
+        weight: 1
+      - path: rainbow_smelt_GEO
+        weight: 1
+      - path: rainbow_smelt_GEO/left_eye_GEO
+        weight: 1
+      - path: rainbow_smelt_GEO/left_eye_GEO/right_eye_GEO
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

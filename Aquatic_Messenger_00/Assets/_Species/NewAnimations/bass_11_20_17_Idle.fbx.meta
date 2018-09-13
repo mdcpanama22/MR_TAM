@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: cb6f68d89af37e24693ba13f4af348ee
+timeCreated: 1512644732
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body
+    100004: Body1
+    100006: Body2
+    100008: Body3
+    100010: Fish_GEO
+    100012: Head
+    100014: JawBase
+    100016: JawTip
+    100018: Joint_GRP
+    100020: L_botDualFinBase
+    100022: L_botDualFinTip
+    100024: L_flipperBase
+    100026: L_flipperFlex
+    100028: L_flipperJoint
+    100030: R_botDualFinBase
+    100032: R_botDualFinTip
+    100034: R_flipperBase
+    100036: R_flipperFlex
+    100038: R_flipperJoint
+    100040: Right_Eye
+    100042: Root
+    100044: Tail
+    100046: TailTip
+    400000: //RootNode
+    400002: Body
+    400004: Body1
+    400006: Body2
+    400008: Body3
+    400010: Fish_GEO
+    400012: Head
+    400014: JawBase
+    400016: JawTip
+    400018: Joint_GRP
+    400020: L_botDualFinBase
+    400022: L_botDualFinTip
+    400024: L_flipperBase
+    400026: L_flipperFlex
+    400028: L_flipperJoint
+    400030: R_botDualFinBase
+    400032: R_botDualFinTip
+    400034: R_flipperBase
+    400036: R_flipperFlex
+    400038: R_flipperJoint
+    400040: Right_Eye
+    400042: Root
+    400044: Tail
+    400046: TailTip
+    4300000: Body
+    4300002: Right_Eye
+    7400000: Bass_Idle
+    9500000: //RootNode
+    13700000: Body
+    13700002: Right_Eye
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bass_Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fish_GEO
+        weight: 1
+      - path: Fish_GEO/Body
+        weight: 1
+      - path: Fish_GEO/Right_Eye
+        weight: 1
+      - path: Joint_GRP
+        weight: 1
+      - path: Joint_GRP/Root
+        weight: 1
+      - path: Joint_GRP/Root/Body1
+        weight: 1
+      - path: Joint_GRP/Root/Body1/Body2
+        weight: 1
+      - path: Joint_GRP/Root/Body1/Body2/Body3
+        weight: 1
+      - path: Joint_GRP/Root/Body1/Body2/Body3/Tail
+        weight: 1
+      - path: Joint_GRP/Root/Body1/Body2/Body3/Tail/TailTip
+        weight: 1
+      - path: Joint_GRP/Root/Body1/Head
+        weight: 1
+      - path: Joint_GRP/Root/Body1/Head/JawBase
+        weight: 1
+      - path: Joint_GRP/Root/Body1/Head/JawBase/JawTip
+        weight: 1
+      - path: Joint_GRP/Root/Body1/L_botDualFinBase
+        weight: 1
+      - path: Joint_GRP/Root/Body1/L_botDualFinBase/L_botDualFinTip
+        weight: 1
+      - path: Joint_GRP/Root/Body1/L_flipperBase
+        weight: 1
+      - path: Joint_GRP/Root/Body1/L_flipperBase/L_flipperJoint
+        weight: 1
+      - path: Joint_GRP/Root/Body1/L_flipperBase/L_flipperJoint/L_flipperFlex
+        weight: 1
+      - path: Joint_GRP/Root/Body1/R_botDualFinBase
+        weight: 1
+      - path: Joint_GRP/Root/Body1/R_botDualFinBase/R_botDualFinTip
+        weight: 1
+      - path: Joint_GRP/Root/Body1/R_flipperBase
+        weight: 1
+      - path: Joint_GRP/Root/Body1/R_flipperBase/R_flipperJoint
+        weight: 1
+      - path: Joint_GRP/Root/Body1/R_flipperBase/R_flipperJoint/R_flipperFlex
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

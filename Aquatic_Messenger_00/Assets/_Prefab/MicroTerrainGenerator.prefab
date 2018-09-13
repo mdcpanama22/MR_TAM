@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1896936701749472}
+  m_IsPrefabParent: 1
+--- !u!1 &1896936701749472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4848864613669614}
+  - component: {fileID: 114984301984771844}
+  m_Layer: 0
+  m_Name: MicroTerrainGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4848864613669614
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896936701749472}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 116.1943, y: -7.3149853, z: 128.17822}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114984301984771844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896936701749472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a389a996e697645a9088d545660cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RockTypes:
+  - {fileID: 100000, guid: 1c81d395dc4cf3848a75715d03e6c909, type: 2}
+  - {fileID: 100000, guid: 96ae14447d8ca1d4394d0dce2ed1c0ac, type: 2}
+  - {fileID: 100000, guid: a4db1110a0f72914c8e725f2827115ce, type: 2}
+  - {fileID: 100000, guid: 7e9a4f795d10b954eabbcdc439e28da4, type: 2}
+  - {fileID: 100000, guid: 33544a43e65692642bced06bb28509ae, type: 2}
+  Player: {fileID: 0}
+  PlayerSizeToGen: 1
+  PlayerDistanceToGround: 4
+  RockMaxScale: 0.2
+  RockMinScale: 0.01
+  radius: 15
+  distance: 0.2
+  rate: 0.1
