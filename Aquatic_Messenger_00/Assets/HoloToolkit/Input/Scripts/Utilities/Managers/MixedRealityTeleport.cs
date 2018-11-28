@@ -129,9 +129,10 @@ namespace HoloToolkit.Unity.InputModule
                 HandleGamepad();
             }
 #endif
-
+            
             if (currentPointingSource != null)
             {
+
                 PositionMarker();
             }
         }
@@ -147,13 +148,11 @@ namespace HoloToolkit.Unity.InputModule
                 {
                     if (FocusManager.Instance.TryGetSinglePointer(out currentPointingSource))
                     {
-                        Debug.Log("START TELEPORT");
                         StartTeleport();
                     }
                 }
                 else if (currentPointingSource != null && new Vector2(leftX, leftY).magnitude < 0.2)
                 {
-                    Debug.Log("FINISH TELEPORT");
                     FinishTeleport();
                 }
             }
@@ -344,11 +343,14 @@ namespace HoloToolkit.Unity.InputModule
         {
             FocusDetails focusDetails = FocusManager.Instance.GetFocusDetails(currentPointingSource);
 
-            if (focusDetails.Object != null && (Vector3.Dot(focusDetails.Normal, Vector3.up) > 0.90f))
+            //Debug.Log(focusDetails.Object.gameObject.name);
+            if (focusDetails.Object != null && focusDetails.Object.gameObject.tag != "NA_Teleport" && (Vector3.Dot(focusDetails.Normal, Vector3.up) > 0.90f)) 
             {
+                
                 isTeleportValid = true;
 
                 teleportMarker.transform.position = focusDetails.Point;
+               // Debug.Log("VALID TARGET");
             }
             else
             {

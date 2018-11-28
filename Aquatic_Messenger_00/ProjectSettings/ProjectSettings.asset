@@ -552,7 +552,8 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    14: AQUAS_PRESENT;UNITY_POST_PROCESSING_STACK_V1
   platformArchitecture: {}
   scriptingBackend:
     Metro: 2
@@ -661,7 +662,8 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 0d2bcffe-d285-4d7f-a617-85ef2955f7e8
